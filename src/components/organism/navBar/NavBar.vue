@@ -12,7 +12,7 @@ import './nav-bar.scss'
       </router-link>
       <ul class="navbar-nav">
         <li class="nav-item" v-if="$route.name == 'about'">
-          <router-link to="/" class="nav-link">Home</router-link>
+          <router-link to="/" class="nav-link">My work</router-link>
         </li>
         <li class="nav-item" v-else-if="$route.name == 'home'">
           <router-link to="/about" class="nav-link">About me</router-link>
