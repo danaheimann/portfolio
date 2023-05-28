@@ -1,12 +1,12 @@
 @import "../scss/base-components";
 
 .page-wrapper#about {
-    .navbar {
-      .navbar-nav .nav-link,
-      .navbar-brand div {
-        color: $old-mauve !important;
-      }
+  .navbar {
+    .navbar-nav .nav-link,
+    .navbar-brand div {
+      color: $old-mauve !important;
     }
+  }
 }
 
 .header-about {
@@ -14,68 +14,78 @@
   @include media-breakpoint-up(md) {
     margin-top: 0;
   }
-
   @include media-breakpoint-down(md) {
     background-color: transparent !important;
   }
 
-  &__image {
-    @include media-breakpoint-down(md) {
-      padding: 0;
-    }
-  }
+  .container {
+    .row {
 
-  &__text {
-    padding-block: 4rem;
-    margin-block-start: -300px;
-    @include media-breakpoint-up(md) {
-      margin-block-start: 0;
-    }
-    h1 {
-      color: $primary;
-      @include media-breakpoint-up(md) {
-        color: $old-mauve;
-      }
-      //@include media-breakpoint-only(md) {
-      //  font-size: 5rem;
-      //}
       @include media-breakpoint-down(md) {
-        font-size: 5rem;
+        position: relative;
       }
 
-    }
-
-    .lead {
-      font-size: 1.8rem;
-      color: $secondary;
-      @include media-breakpoint-up(md) {
-        color: $phthalo-green;
+      .header-about__image {
+        @include media-breakpoint-down(md) {
+          padding: 0;
+        }
       }
 
+      .header-about__text {
+        @include media-breakpoint-down(md) {
+          position: absolute;
+          bottom: 0;
+          padding-block-end: 2rem;
+        }
+        @include media-breakpoint-up(md) {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
 
+        h1 {
+          color: $primary;
+          font-size: 5rem;
+          @include media-breakpoint-up(md) {
+            color: $old-mauve;
+            font-size: 7rem;
+          }
 
-      @include media-breakpoint-up(md) {
-        font-size: 2.5rem;
+        }
+
+        .lead {
+          font-size: 1.8rem;
+          color: $secondary;
+          @include media-breakpoint-up(md) {
+            color: $phthalo-green;
+          }
+
+          @include media-breakpoint-up(md) {
+            font-size: 2.5rem;
+          }
+        }
+
+        img {
+          max-width: 380px;
+        }
       }
-    }
-
-    img {
-      max-width: 380px;
     }
   }
+
 }
 
 .dn-see-my-cv {
   padding-block-end: 10rem;
+
   .dn-btn-wrapper {
     .dn-btn-outline-old-mauve {
       font-size: 2.3rem;
       @include media-breakpoint-up(sm) {
-      font-size: 3rem;
-    }
+        font-size: 3rem;
+      }
       @include media-breakpoint-up(md) {
-      font-size: 4rem;
-    }
+        font-size: 4rem;
+      }
     }
   }
 }
@@ -87,6 +97,7 @@
 
   &-group {
     padding-block-end: 2.5rem;
+
     p {
       margin-bottom: 0.5rem;
     }
