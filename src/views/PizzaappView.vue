@@ -9,7 +9,7 @@ import Image from "../components/atoms/image/Image.vue";
 // data variables
 const webTitle = "DANA HEIMANN";
 const webSubTitle = "UX/UI & VISUAL DESIGNER";
-const mastHeadImage = "/src/assets/images/header-pizza-app-desktop.png";
+const mastHeadImage = "./images/header-pizza-app-desktop.png";
 
 const listItems = [
     {
@@ -265,7 +265,7 @@ const listItems = [
             <div class="container">
                 <h3 class="text-center title-section">SITEMAP:</h3>
                 <div class="section-wrapper text-center">
-                    <Image alt="image.alt" url="/images/pizza-app-site-map.png"/>
+                    <Image alt="image.alt" url="./images/pizza-app-site-map.png"/>
                 </div>
             </div>
         </section>
@@ -310,7 +310,7 @@ const listItems = [
                 <h3 class="text-center title-section">USABILITY STUDY FINDINGS:</h3>
                 <div class="section-wrapper row">
                     <div class="col-12 col-lg-8">
-                        <Image alt="usability study" url="/images/usability-study.JPG"/>
+                        <Image alt="usability study" url="./images/usability-study.JPG"/>
                     </div>
                     <div class="col-12 col-lg-4 pt-3 pt-lg-0">
                         <ol>
@@ -411,7 +411,7 @@ const listItems = [
             <div class="container text-center">
                 <div class="section-wrapper">
                     <h3 class="text-center title-section">STYLE GUIDE:</h3>
-                    <Image alt="usability study" url="/images/usability-study.JPG"/>
+                    <Image alt="usability study" url="./images/usability-study.JPG"/>
                 </div>
             </div>
         </section>
@@ -419,7 +419,7 @@ const listItems = [
             <div class="container text-center">
                 <div class="section-wrapper">
                     <h3 class="text-center title-section">FINAL PROTOTYPE:</h3>
-                    <Image alt="usability study" url="/images/usability-study.JPG"/>
+                    <Image alt="usability study" url="./images/usability-study.JPG"/>
                     <p>SEE THE FINAL PROTOTYPE FOR YOURSELF HERE</p>
                 </div>
             </div>

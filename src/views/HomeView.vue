@@ -8,7 +8,7 @@ import IntroText from "../components/organism/introText/IntroText.vue";
 // data variables
 const webTitle = "DANA HEIMANN";
 const webSubTitle = "UX/UI & VISUAL DESIGNER";
-const mastHeadImage = "/src/assets/images/masthead2500.jpg";
+const mastHeadImage = "./images/masthead2500.jpg";
 const introText = "I’m a UX/UI and Visual Designer from New York, now based in Southern Spain.\n" +
     "I bring my love of adventure to my work by always staying curious, learning from others, and looking forward to what’s next. As a passionate artist and designer with innovative ideas, I can work with anyone and on any project, contributing a fresh perspective and helping teams gain forward momentum.";
 
@@ -44,7 +44,7 @@ const projectCards = [
         description: 'Lorem Ipsum',
         link: '/pizzaapp',
         image: {
-            url: "/images/pizza-app.png",
+            url: "./images/pizza-app.png",
             alt: "Project image alt",
             position: "right"
         },
@@ -69,7 +69,7 @@ const projectCards = [
         description: 'Lorem Ipsum',
         link: '/pizzaapp',
         image: {
-            url: "/images/yoga-studio.png",
+            url: "./images/yoga-studio.png",
             alt: "Project image alt",
             position: "left"
         },

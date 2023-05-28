@@ -6,7 +6,7 @@ import './scss/custom.scss'
 // data variables
 const footer = {
   image: {
-    url: "/images/footer-cropped.jpeg",
+    url: "./images/footer-cropped.jpeg",
     alt: "Project image alt"
   }
 };
