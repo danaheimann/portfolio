@@ -1,0 +1,109 @@
+$font-family-aqala-display: aqala-display, sans-serif;
+$font-family-svarga-regular: svarga-regular, sans-serif;
+
+// Headings
+$headings-font-family: $font-family-aqala-display;
+
+$h1-font-size: 10rem;
+$h2-font-size: 6.25rem;
+$h3-font-size: 3.5rem;
+$h4-font-size: 2rem;
+$h5-font-size: 1.8rem;
+$h6-font-size: 1.5rem;
+$lead-font-size: 1.8rem;
+
+$font-xxs: 0.875rem; // 14px
+$font-xs: 1rem; // 16px
+$font-sm: 1.125rem; // 18px
+$font-md: 1.25rem; // 20px
+$font-lg: 1.375rem; // 22px
+$font-xl: 1.563rem; // 25px
+$font-xxl: 1.563rem; // 30px
+
+$font-size-xl: 1.375rem; // 22px
+$font-size-lg: 1.25rem; // 20px
+$font-size-md: 1.125rem; // 18px
+$font-size-sm: 1rem; // 16px
+$font-size-xs: 0.875rem; // 14px
+
+// Colors
+//#11270B Phthalo Green
+//#326022 Mid-dark Green
+//#529938 May Green
+//#D9FCC6 Tea Green primary -------
+//#C2A0AC Tuscany Secondary --------
+//#916577 Mauve Taupe
+//#602941 Old Mauve
+//#C4C4C4 Mid-Grey
+
+// First override some or all individual color variables
+$primary: #D9FCC6; //#D9FCC6 Tea Green
+$secondary: #C2A0AC; //#C2A0AC Tuscany
+$secondary-25: #C2A0AC40; //#C2A0AC Tuscany
+$phthalo-green: #11270B;
+$mid-dark-green: #326022;
+$may-green: #529938;
+$mauve-taupe: #916577;
+$old-mauve: #602941;
+$mid-grey: #C4C4C4;
+
+// Then add them to your custom theme-colors map, together with any additional colors you might need
+$theme-colors: (
+        primary: $primary,
+        secondary: $secondary,
+        secondary-25: $secondary-25,
+        phthalo-green: $phthalo-green,
+        mid-dark-green: $mid-dark-green,
+        may-green: $may-green,
+        mauve-taupe: $mauve-taupe,
+        old-mauve: $old-mauve,
+        mid-grey: $mid-grey,
+);
+
+
+// navbar-link
+$nav-link-font-size: 2.5rem;
+$nav-link-padding-y: 0;
+
+// navbar
+$navbar-padding-y: 0;
+$navbar-height: 65px;
+$navbar-background-color: $secondary;
+
+// lead
+$lead-font-size: 3.75rem;
+
+
+// buttons
+//$btn-border-color: $old-mauve;
+$btn-border-width: 2px;
+//$input-btn-border-width: 2px;
+////$input-btn-border-width: 2px;
+$btn-border-radius: 25px;
+
+
+$font-family-base: $font-family-svarga-regular;
+
+
+
+// Separator variables
+$hr-margin-y: 6rem;
+$hr-color: $may-green;
+$hr-opacity: 1;
+
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1344px
+);
+$container-max-widths: (
+        xs: 576px,
+        sm: 768px,
+        md: 992px,
+        lg: 1344px
+);
+
+$grid-gutter-width: 24px;

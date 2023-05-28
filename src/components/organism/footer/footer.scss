@@ -1,0 +1,44 @@
+@import "../../../scss/base-components";
+
+
+footer {
+  //.wrapper-footer-image {
+  //  height: 600px;
+  //  overflow: hidden;
+  //
+  //  .footer-image {
+  //    margin-block-start: -727px;
+  //  }
+  //}
+
+  section {
+    margin-block-end: 2rem;
+
+    .footer-contact {
+      font-family: $font-family-aqala-display;
+      font-size: $h5-font-size;
+      padding-block-end: 2rem;
+      @include media-breakpoint-up(md) {
+        font-size: $h3-font-size;
+      }
+    }
+
+    .footer-copyright {
+      color: $mid-dark-green;
+      font-size: $h5-font-size;
+      font-family: $font-family-aqala-display;
+      @include media-breakpoint-up(md) {
+        font-size: $h3-font-size;
+      }
+    }
+
+    .footer-social {
+      padding-block-end: 2rem;
+    }
+
+    .footer-logo {
+      width: 150px;
+      padding-block: 1rem;
+    }
+  }
+}

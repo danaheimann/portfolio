@@ -1,0 +1,31 @@
+@import "../../../scss/base-components";
+
+.project-card {
+  &:last-of-type + hr,
+  &:only-of-type + hr {
+    display: none;
+  }
+
+  .project-card_image {
+    padding-block-end: 2rem;
+    @include media-breakpoint-up(md) {
+      padding-block-end: 0;
+    }
+
+    img {
+      border: solid 10px $old-mauve;
+    }
+  }
+
+  .project-card_body {
+    .project-card_body__list {
+      font-family: $font-family-svarga-regular;
+      font-size: $font-xl;
+    }
+
+    .project-card_body--title {
+      text-align: center;
+      padding-block-end: 1rem;
+    }
+  }
+}

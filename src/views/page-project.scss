@@ -1,0 +1,155 @@
+@import "../scss/base-components";
+
+.page-project {
+  .masthead-wrapper {
+    background: linear-gradient(0deg, $may-green, $white);
+
+  }
+
+  .page-project-highlight {
+
+    .wrapper-list {
+      max-width: 700px;
+      margin-inline: auto;
+
+      .project-card_body__list {
+        //font-family: $font-family-svarga-regular;
+        font-size: $font-xl;
+      }
+    }
+  }
+
+  .about-section {
+    font-size: $font-md;
+
+    .row {
+      align-items: center;
+
+      .col-12 {
+        &:first-child {
+          @include media-breakpoint-down(md) {
+            margin-block-end: 4rem;
+          }
+        }
+
+        &:last-child {
+          @include media-breakpoint-down(md) {
+            background: $white;
+            padding-block-end: 4rem;
+            margin-block-end: -4rem;
+          }
+
+          .title-section {
+            padding-block-start: 4rem;
+            @include media-breakpoint-up(md) {
+              padding-block-start: 0;
+            }
+          }
+        }
+      }
+
+      .title-section {
+        padding-block-end: 4rem;
+      }
+    }
+  }
+
+  .competitive-analysis-section {
+    font-size: $font-md;
+
+    .competitive-analysis-section-images {
+      padding-block-end: 4rem;
+    }
+
+    .competitive-analysis-section-description {
+      font-size: $font-lg;
+      padding-block-end: 4rem;
+    }
+
+    .competitive-analysis-section-card {
+      padding-block: 4rem;
+      padding-inline: 2rem;
+
+      h4 {
+        padding-block-end: 2rem;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  .key-questions-section,
+  .research-process-section,
+  .itineration-section,
+  .quote-section,
+  .met-section,
+  .takeaweys-section,
+  .final-prototype-section {
+    font-size: $font-lg;
+
+    .section-wrapper {
+      max-width: 700px;
+      margin: auto;
+    }
+  }
+
+  .usability-study-section,
+  .before-after-section {
+    font-size: $font-lg;
+  }
+
+  .before-after-section {
+    .container {
+      .row {
+        padding-block-end: 4rem;
+      }
+    }
+  }
+
+  .quote-section {
+    position: relative;
+
+    .svg-inline--fa {
+      color: $white;
+      font-size: 16rem;
+      position: absolute;
+      z-index: 0;
+
+      &.fa-quote-left {
+        top: -20px;
+        left: 15px;
+        @include media-breakpoint-up(md) {
+          left: 5%;
+        }
+        @include media-breakpoint-up(lg) {
+          left: 15%;
+        }
+      }
+
+      &.fa-quote-right {
+        bottom: -20px;
+        right: 15px;
+        @include media-breakpoint-up(md) {
+          right: 5%;
+        }
+        @include media-breakpoint-up(lg) {
+          right: 15%;
+        }
+      }
+    }
+
+    .container {
+      z-index: 10;
+      position: relative;
+
+      .quote-author {
+        font-size: $font-size-xl;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,30 @@
+@import "../../../scss/base-components";
+
+.masthead {
+  height: 100vh;
+  margin-top: -#{$navbar-height};
+  min-height: 500px;
+  //background-image: url('/src/assets/images/masthead2500.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .masthead-filter {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.1) 90%);
+  }
+
+  .container {
+    .row {
+      .col-12 {
+        color: $primary;
+        margin-bottom: 10px;
+        @include media-breakpoint-up(sm) {
+          margin-bottom: 60px;
+        }
+        .lead {
+          font-family: $font-family-aqala-display;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../../scss/base-components";
+
+.navbar {
+  //background-color: $navbar-background-color;
+  height: $navbar-height;
+  .container {
+.navbar-brand {
+  font-family: $font-family-aqala-display;
+  font-size: $nav-link-font-size;
+}
+    ul.navbar-nav {
+      li.nav-item {
+          .nav-link {
+            font-family: $font-family-aqala-display;
+            color: $primary;
+            display: inline-block;
+            padding-inline-start: 1.5rem;
+          }
+      }
+    }
+  }
+}
