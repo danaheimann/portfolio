@@ -44,7 +44,7 @@ const projectCards = [
         description: 'Lorem Ipsum',
         link: '/pizzaapp',
         image: {
-            url: "./images/pizza-app.png",
+            url: "./images/pizza-app.jpg",
             alt: "Project image alt",
             position: "right"
         },

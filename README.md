@@ -28,7 +28,7 @@ npm run dev
 npm run build
 git add .
 git commit -m'production files added'
-git push origin main
+git push origin master
 git subtree push --prefix dist origin gh-pages
 
 ```

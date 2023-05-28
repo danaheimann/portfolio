@@ -8,7 +8,7 @@ import './nav-bar.scss'
     <div class="container">
       <router-link to="/" class="navbar-brand">
 <!--        <img alt="Dana logo" src="../../../assets/logo.svg" width="55"/>-->
-          <div class="text-primary">DN</div>
+          <div class="text-primary">DH</div>
       </router-link>
       <ul class="navbar-nav">
         <li class="nav-item" v-if="$route.name == 'about'">

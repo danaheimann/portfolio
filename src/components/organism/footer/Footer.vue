@@ -22,34 +22,44 @@ defineProps({
 </script>
 
 <template>
-    <footer>
-        <div class="wrapper-footer-image">
-<!--            <img v-prlx style="background-image: url('/images/footer2500.jpg')">-->
-<!--            <div class="footer-image" v-prlx.background="{direction: 'y', speed: 0.07, fromBottom: true}" style="background-image: url('/images/footer2500.jpg')"></div>-->
-            <Image class="footer-image" :alt="image.alt" :url="image.url"/>
-        </div>
-        <section class="container footer-wrapper d-flex flex-column align-items-center">
-            <h2 class="footer-title title-section">{{ title }}</h2>
-            <div class="footer-contact d-flex flex-column align-items-center">
-                <p class="footer-contact-emmail">{{ email }}</p>
-                <p class="footer-contact-phone">{{ phone }}</p>
-            </div>
-            <div class="footer-social d-flex justify-content-around w-100">
-                <font-awesome-icon icon="fa-brands fa-linkedin" size="2x"/>
-                <font-awesome-icon icon="fa-brands fa-dribbble" size="2x"/>
-                <font-awesome-icon icon="fa-brands fa-behance" size="2x"/>
-                <font-awesome-icon icon="fa-brands fa-github" size="2x"/>
-                <font-awesome-icon icon="fa-brands fa-instagram" size="2x"/>
-                <font-awesome-icon icon="fa-brands fa-twitter" size="2x"/>
-            </div>
-            <!--      <div class="footer-logo">-->
-            <!--        <Image alt="Logo dana heimann" url="./logo.svg"/>-->
-            <!--      </div>-->
-            <div class="footer-copyright">
-                © DANA HEIMANN 2023
-            </div>
-        </section>
-    </footer>
+  <footer>
+    <div class="wrapper-footer-image">
+      <Image class="footer-image" :alt="image.alt" :url="image.url"/>
+    </div>
+    <section class="container footer-wrapper d-flex flex-column align-items-center">
+      <h2 class="footer-title title-section">{{ title }}</h2>
+      <div class="footer-contact d-flex flex-column align-items-center">
+        <p class="footer-contact-emmail">{{ email }}</p>
+        <p class="footer-contact-phone">{{ phone }}</p>
+      </div>
+      <div class="footer-social d-flex justify-content-around w-100">
+        <a href="https://www.linkedin.com/in/danaheimann/" class="p-3">
+          <font-awesome-icon icon="fa-brands fa-linkedin" size="2x"/>
+        </a>
+        <a href="https://dribbble.com/danaheimann" class="p-3">
+          <font-awesome-icon icon="fa-brands fa-dribbble" size="2x"/>
+        </a>
+        <a href="https://www.behance.net/danaheimann" class="p-3">
+          <font-awesome-icon icon="fa-brands fa-behance" size="2x"/>
+        </a>
+        <a href="https://flickr.com/photos/danaheimann/" class="p-3">
+          <font-awesome-icon icon="fa-brands fa-flickr" size="2x"/>
+        </a>
+        <a href="https://www.instagram.com/the.memory.archive/" class="p-3">
+          <font-awesome-icon icon="fa-brands fa-instagram" size="2x"/>
+        </a>
+        <a href="https://github.com/danaheimann" class="p-3">
+          <font-awesome-icon icon="fa-brands fa-github" size="2x"/>
+        </a>
+      </div>
+      <!--      <div class="footer-logo">-->
+      <!--        <Image alt="Logo dana heimann" url="./logo.svg"/>-->
+      <!--      </div>-->
+      <div class="footer-copyright">
+        © DANA HEIMANN 2023
+      </div>
+    </section>
+  </footer>
 </template>
 
 

@@ -18,7 +18,7 @@ import {
 
 import {
     faLinkedin,
-    faTwitter,
+    faFlickr,
     faInstagram,
     faDribbble,
     faBehance,
@@ -30,7 +30,7 @@ library.add(
     faQuoteLeft,
     faCircleRight,
     faLinkedin,
-    faTwitter,
+    faFlickr,
     faInstagram,
     faDribbble,
     faBehance,
