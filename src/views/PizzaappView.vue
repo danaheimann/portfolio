@@ -46,7 +46,7 @@ const listItems = [
         <div class="row">
           <div class="col-12 col-md-6">
             <h4 class="text-center title-section">ABOUT</h4>
-            <div>
+            <div class="text-center">
               This is a mobile ordering app for local pizzeria, Pequeña Italia, which has many loyal
               customers including families with full-time working parents as well as young professionals
               and people with food sensitivities, but has no website or other online presence besides a
@@ -173,10 +173,11 @@ const listItems = [
         <h3 class="text-center title-section">RESEARCH PROCESS:</h3>
         <div class="section-wrapper text-center">
           <p>Before designing, for research into users’ opinions, thoughts, experiences, and feelings, user
-          interviews were conducted with a variety of participants.</p><p>
-          Research revealed two main groups of users: working adults who might use the app to help save
-          time and effort when they are too busy to cook; and secondly, users with food sensitivities or
-          allergies who want a way to express them to the business while placing an order.</p>
+            interviews were conducted with a variety of participants.</p>
+          <p>
+            Research revealed two main groups of users: working adults who might use the app to help save
+            time and effort when they are too busy to cook; and secondly, users with food sensitivities or
+            allergies who want a way to express them to the business while placing an order.</p>
         </div>
       </div>
     </section>
@@ -344,12 +345,22 @@ const listItems = [
         <h3 class="text-center title-section">BEFORE & AFTER USABILITY STUDY:</h3>
         <div class="row">
           <div class="col-12 col-lg-8 text-center">
-            <Image alt="pizza app" url="./images/mockup04.jpg"/>
-            <Image alt="pizza app" url="./images/mockup04.jpg"/>
+            <div class="row">
+              <div class="col-5">
+                <Image alt="pizza app" url="./images/mockup04.jpg"/>
+              </div>
+              <div class="col-2 d-flex align-items-center justify-content-center">
+                <font-awesome-icon icon="fa-solid fa-long-arrow-right"/>
+              </div>
+              <div class="col-5">
+                <Image alt="pizza app" url="./images/mockup04.jpg"/>
+              </div>
+            </div>
           </div>
-          <div class="col-12 col-lg-4 text-center">Based on the insight that users expect a landing page, a
+          <div class="col-12 col-lg-4 text-center d-flex align-items-center"><p>Based on the insight that users expect a
+            landing page, a
             homepage was created that has general information about the business (like address and hours as
-            well as a photo of the restaurant) as the first thing users see.
+            well as a photo of the restaurant) as the first thing users see.</p>
           </div>
         </div>
         <div class="row">

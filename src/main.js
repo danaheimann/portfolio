@@ -13,7 +13,8 @@ import {
 
 import {
     faQuoteRight,
-    faQuoteLeft
+    faQuoteLeft,
+    faLongArrowRight
 } from "@fortawesome/free-solid-svg-icons";
 
 import {
@@ -26,6 +27,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
+    faLongArrowRight,
     faQuoteRight,
     faQuoteLeft,
     faCircleRight,
