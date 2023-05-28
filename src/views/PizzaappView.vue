@@ -115,8 +115,8 @@ const listItems = [
         <div class="row">
           <div class="col-6">
             <div class="competitive-analysis-section-card bg-mauve-taupe bg-opacity-50 text-center h-100">
-              <h4>Problems</h4>
-              <ul>
+              <h5 class="title-section">Problems</h5>
+              <ul class="d-flex flex-column align-items-center py-3">
                 <li>Poor online presence (app & website)</li>
                 <li>Weak brand identity</li>
                 <li>Unclear value offerings</li>
@@ -134,8 +134,8 @@ const listItems = [
           </div>
           <div class="col-6">
             <div class="competitive-analysis-section-card  bg-mid-dark-green bg-opacity-25 text-center h-100">
-              <h4>Opportunities</h4>
-              <ul>
+              <h5 class="title-section">Opportunities</h5>
+              <ul class="d-flex flex-column align-items-center py-3">
                 <li>Create dedicated app & website</li>
                 <li>Strengthen brand identity– Logo redesign?</li>
                 <li>Clearly communicate the value they offer</li>
@@ -158,7 +158,7 @@ const listItems = [
         <h3 class="text-center title-section">KEY QUESTIONS:</h3>
         <div class="section-wrapper">
           <ol>
-            <li>How might we create a mobile-ordering platform for Pequeña Italia to better reach their
+            <li class="pb-3">How might we create a mobile-ordering platform for Pequeña Italia to better reach their
               existing customers and acquire new customers?
             </li>
             <li>How can we create a streamlined way to view Pequeña Italia’s offerings and order seamlessly
@@ -172,11 +172,11 @@ const listItems = [
       <div class="container">
         <h3 class="text-center title-section">RESEARCH PROCESS:</h3>
         <div class="section-wrapper text-center">
-          Before designing, for research into users’ opinions, thoughts, experiences, and feelings, user
-          interviews were conducted with a variety of participants.
+          <p>Before designing, for research into users’ opinions, thoughts, experiences, and feelings, user
+          interviews were conducted with a variety of participants.</p><p>
           Research revealed two main groups of users: working adults who might use the app to help save
           time and effort when they are too busy to cook; and secondly, users with food sensitivities or
-          allergies who want a way to express them to the business while placing an order.
+          allergies who want a way to express them to the business while placing an order.</p>
         </div>
       </div>
     </section>
@@ -320,10 +320,10 @@ const listItems = [
           </div>
           <div class="col-12 col-lg-4 pt-3 pt-lg-0">
             <ol>
-              <li>Starting From Zero--How can we take a business that doesn’t even have a website into the
+              <li class="pb-3">Starting From Zero--How can we take a business that doesn’t even have a website into the
                 twenty-first century with a mobile ordering application?
               </li>
-              <li>Accessibility--Blurry, out-of-order menu photos that one has to search for in the
+              <li class="pb-3">Accessibility--Blurry, out-of-order menu photos that one has to search for in the
                 restaurant’s Google Maps page need to be transformed into a useful, usable, and
                 accessible mobile app that users on any device and of any ability are able to use
                 successfully.
@@ -396,10 +396,10 @@ const listItems = [
           <h3 class="text-center title-section">HOW PRODUCT MET INITIAL CHALLENGES:</h3>
           <div>
             <ol>
-              <li>The final prototype of the app demonstrates an approachable and easy-to-use
+              <li class="pb-3">The final prototype of the app demonstrates an approachable and easy-to-use
                 pizza-ordering app that effectively brings Pequeña Italia into the 21st century.
               </li>
-              <li>Previously, the only version of the restaurant’s menu that existed online was in photo
+              <li class="pb-3">Previously, the only version of the restaurant’s menu that existed online was in photo
                 or PDF format, completely inaccessible to those users who use a screen reader. Now, with
                 a fully digitized menu, the restaurant’s menu is accessible to those users, but also
                 easier to read and access for all users.
