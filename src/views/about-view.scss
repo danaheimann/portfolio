@@ -1,17 +1,11 @@
 @import "../scss/base-components";
 
-.page-wrapper#about {
-  .navbar {
-    .navbar-nav .nav-link,
-    .navbar-brand div {
-      color: $old-mauve !important;
-    }
-  }
-}
 
 .header-about {
+  font-size: $font-md;
   margin-top: -#{$navbar-height};
   @include media-breakpoint-up(md) {
+    font-size: $font-lg;
     margin-top: 0;
   }
   @include media-breakpoint-down(md) {
@@ -97,6 +91,10 @@
 
   &-group {
     padding-block-end: 2.5rem;
+    font-size: $font-sm;
+    @include media-breakpoint-up(md) {
+      font-size: $font-lg;
+    }
 
     p {
       margin-bottom: 0.5rem;
@@ -123,7 +121,10 @@
 
     &__ul {
       li {
-        font-size: 1.5rem;
+        font-size: $font-sm;
+        @include media-breakpoint-up(md) {
+          font-size: $font-lg;
+        }
 
         &::marker {
           font-size: 1.1rem;

@@ -1,7 +1,17 @@
 @import "../../../scss/base-components";
 
+.page-wrapper#about,
+.page-wrapper#pizzaapp {
+  .navbar {
+    .navbar-nav .nav-link,
+    .navbar-brand div {
+      color: $old-mauve !important;
+    }
+  }
+}
+
 .navbar {
-  //background-color: $navbar-background-color;
+  z-index: 10;
   height: $navbar-height;
   .container {
 .navbar-brand {

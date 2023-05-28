@@ -6,6 +6,11 @@
 
   }
 
+  font-size: $font-sm;
+  @include media-breakpoint-up(md) {
+    font-size: $font-lg;
+  }
+
   .page-project-highlight {
 
     .wrapper-list {
@@ -13,14 +18,20 @@
       margin-inline: auto;
 
       .project-card_body__list {
-        //font-family: $font-family-svarga-regular;
         font-size: $font-xl;
+
+        .list-item-content {
+          @include media-breakpoint-up(md) {
+            text-align: left;
+          }
+
+        }
       }
     }
   }
 
   .about-section {
-    font-size: $font-md;
+    //font-size: $font-md;
 
     .row {
       align-items: center;
@@ -46,23 +57,33 @@
             }
           }
         }
-      }
 
-      .title-section {
-        padding-block-end: 4rem;
+        ol {
+          li:not(:last-child) {
+            padding-block-end: 1.5rem;
+          }
+        }
       }
     }
   }
 
   .competitive-analysis-section {
-    font-size: $font-md;
+
+    .competitive-analysis-section-title {
+      h3 {
+        padding-block-end: 0;
+      }
+
+      h4 {
+        padding-block-end: 2rem;
+      }
+    }
 
     .competitive-analysis-section-images {
       padding-block-end: 4rem;
     }
 
     .competitive-analysis-section-description {
-      font-size: $font-lg;
       padding-block-end: 4rem;
     }
 
@@ -89,17 +110,11 @@
   .met-section,
   .takeaweys-section,
   .final-prototype-section {
-    font-size: $font-lg;
 
     .section-wrapper {
       max-width: 700px;
       margin: auto;
     }
-  }
-
-  .usability-study-section,
-  .before-after-section {
-    font-size: $font-lg;
   }
 
   .before-after-section {
@@ -147,7 +162,10 @@
       position: relative;
 
       .quote-author {
-        font-size: $font-size-xl;
+        font-size: $font-size-md;
+        @include media-breakpoint-up(md) {
+          font-size: $font-size-xl;
+        }
       }
     }
 
