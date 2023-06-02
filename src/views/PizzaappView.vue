@@ -113,7 +113,7 @@ const listItems = [
             communicate their brand and offerings, which are great.</p>
         </div>
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class="competitive-analysis-section-card bg-project-pink  text-center h-100">
               <h5 class="title-section">Problems</h5>
               <ul class="d-flex flex-column align-items-center py-3">
@@ -132,7 +132,7 @@ const listItems = [
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class="competitive-analysis-section-card  bg-project-light-green  text-center h-100">
               <h5 class="title-section">Opportunities</h5>
               <ul class="d-flex flex-column align-items-center py-3">
