@@ -1,8 +1,21 @@
 @import "../scss/base-components";
 
+//#E00000 Rosso Corsa (RED)
+//#FFB60A Honey Yellow
+//#058E3F Spanish Green (GREEN)
+//#F7BFBF Rosso Corsa Light (PINK)
+//#C1E3CF Spanish Green Light (LIGHT GREEN)
+
+//$project-red:#E00000;
+//$project-yellow:#FFB60A;
+//$project-green:#058E3F;
+//$project-pink:#F7BFBF;
+//$project-light-green:#C1E3CF;
+
+
 .page-project {
   .masthead-wrapper {
-    background: linear-gradient(0deg, $may-green, $white);
+    background: linear-gradient(0deg, $project-green, $white);
 
   }
 
@@ -74,6 +87,27 @@
     }
   }
 
+  .user-personas-section {
+    .user-personas-section-person {
+      &:first-child {
+        @include media-breakpoint-down(lg) {
+          padding-block-end: 4rem;
+        }
+      }
+      .user-personas-section-person-title {
+        font-family: $font-family-svarga-regular;
+        font-size: $font-xl;
+      }
+      dt {
+        font-weight: normal;
+        text-decoration: underline;
+      }
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+
   .competitive-analysis-section {
     .competitive-analysis-section-title {
       h3 {
@@ -129,10 +163,13 @@
 
     .svg-inline--fa {
       color: $white;
-      font-size: 16rem;
+      font-size: 10rem;
       position: absolute;
       z-index: 0;
 
+      @include media-breakpoint-up(lg) {
+        font-size: 16rem;
+      }
       &.fa-quote-left {
         top: -20px;
         left: 15px;
@@ -161,9 +198,9 @@
       position: relative;
 
       .quote-author {
-        font-size: $font-size-md;
+        font-size: $font-md;
         @include media-breakpoint-up(md) {
-          font-size: $font-size-xl;
+          font-size: $font-xl;
         }
       }
     }

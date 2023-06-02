@@ -41,7 +41,7 @@ const listItems = [
         </div>
       </div>
     </section>
-    <section class="bg-mauve-taupe bg-opacity-50 about-section">
+    <section class="bg-project-pink  about-section">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6">
@@ -114,7 +114,7 @@ const listItems = [
         </div>
         <div class="row">
           <div class="col-6">
-            <div class="competitive-analysis-section-card bg-mauve-taupe bg-opacity-50 text-center h-100">
+            <div class="competitive-analysis-section-card bg-project-pink  text-center h-100">
               <h5 class="title-section">Problems</h5>
               <ul class="d-flex flex-column align-items-center py-3">
                 <li>Poor online presence (app & website)</li>
@@ -133,7 +133,7 @@ const listItems = [
             </div>
           </div>
           <div class="col-6">
-            <div class="competitive-analysis-section-card  bg-mid-dark-green bg-opacity-25 text-center h-100">
+            <div class="competitive-analysis-section-card  bg-project-light-green  text-center h-100">
               <h5 class="title-section">Opportunities</h5>
               <ul class="d-flex flex-column align-items-center py-3">
                 <li>Create dedicated app & website</li>
@@ -168,7 +168,7 @@ const listItems = [
         </div>
       </div>
     </section>
-    <section class="research-process-section bg-mid-dark-green bg-opacity-25">
+    <section class="research-process-section bg-project-light-green ">
       <div class="container">
         <h3 class="text-center title-section">RESEARCH PROCESS:</h3>
         <div class="section-wrapper text-center">
@@ -185,11 +185,12 @@ const listItems = [
       <div class="container">
         <h3 class="text-center title-section">USER PERSONAS:</h3>
         <div class="row text-center">
-          <div class="col-6 user-personas-section-person">
-            <div class="container-fluid border border-3 border-may-green h-100">
-              <h5 class="text-may-green my-3">Sebastian</h5>
-              <Image alt="pizza app" url="./images/personaSebastian.jpg"/>
-              <div class="col-12 text-may-green my-3">
+          <div class="col-12 col-lg-6 user-personas-section-person">
+            <div class="container-fluid border border-2 border-project-green h-100 p-4">
+              <div class="user-personas-section-person-title text-project-green my-3">Sebastian</div>
+              <Image alt="pizza app" url="./images/personaSebastianSquare.jpeg"
+                     class="img-fluid border-project-green border border-1"/>
+              <div class="col-12 text-project-green my-3">
                 <div class="row">
                   <dt class="col-6 text-end">Age:</dt>
                   <dd class="col-6 text-start">42</dd>
@@ -218,13 +219,21 @@ const listItems = [
                   more
                   quality time with his kids.</p>
               </div>
+              <div class="user-personas-section-person-solve">
+                <h4 class="py-3">USER PROBLEMS TO SOLVE:</h4>
+                <p class="text-project-green">As a busy working dad, Sebastian wants to order takeout quickly and
+                  securely with Google Pay
+                  or Apple Pay so that he doesn’t have to waste time inputting credit card info and is able to
+                  have more time for his kids and busy life schedule. </p>
+              </div>
             </div>
           </div>
-          <div class="col-6 user-personas-section-person">
-            <div class="container-fluid border border-3 border-old-mauve h-100">
-              <h5 class="text-may-green my-3">Sebastian</h5>
-              <Image alt="pizza app" url="./images/personaSebastian.jpg"/>
-              <div class="col-12 text-may-green my-3">
+          <div class="col-12 col-lg-6 user-personas-section-person">
+            <div class="container-fluid border border-2 border-project-red h-100 p-4">
+              <div class="user-personas-section-person-title text-project-red my-3">Elena</div>
+              <Image alt="pizza app" url="./images/personaSebastianSquare.jpeg"
+                     class="img-fluid border-project-red border border-1"/>
+              <div class="col-12 text-project-red my-3">
                 <div class="row">
                   <dt class="col-6 text-end">Age:</dt>
                   <dd class="col-6 text-start">28</dd>
@@ -247,23 +256,13 @@ const listItems = [
                   finding restaurants that will accommodate her needs, especially in her small
                   town.</p>
               </div>
+              <div class="user-personas-section-person-solve">
+                <h4 class="py-3">USER PROBLEMS TO SOLVE:</h4>
+                <p class="text-project-red">As someone with food allergies, Elena needs options to modify her order
+                  before placing it so
+                  that she can ensure a restaurant is aware of her food sensitivities.</p>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="user-personas-section">
-      <div class="container">
-        <h3 class="text-center title-section">USER PROBLEMS TO SOLVE:</h3>
-        <div class="row text-center">
-          <div class="col-6 user-personas-section-person">
-            <p>As a busy working dad, Sebastian wants to order takeout quickly and securely with Google Pay
-              or Apple Pay so that he doesn’t have to waste time inputting credit card info and is able to
-              have more time for his kids and busy life schedule. </p>
-          </div>
-          <div class="col-6 user-personas-section-person">
-            <p>As someone with food allergies, Elena needs options to modify her order before placing it so
-              that she can ensure a restaurant is aware of her food sensitivities.</p>
           </div>
         </div>
       </div>
@@ -283,16 +282,16 @@ const listItems = [
           <div class="container">
             <div class="row competitive-analysis-section-images">
               <div class="col-6 col-lg-3 text-center">
-                <Image alt="pizza app" url="./images/mockup04.jpg"/>
+                <Image alt="pizza app" url="./images/wireframeSignUp.jpg"/>
               </div>
               <div class="col-6 col-lg-3 text-center">
-                <Image alt="pizza app" url="./images/mockup09.jpg"/>
+                <Image alt="pizza app" url="./images/wireframeMainMenu.jpg"/>
               </div>
               <div class="col-6 col-lg-3 text-center">
-                <Image alt="pizza app" url="./images/mockup12.jpg"/>
+                <Image alt="pizza app" url="./images/wireframeOrderSummary.jpg"/>
               </div>
               <div class="col-6 col-lg-3 text-center">
-                <Image alt="pizza app" url="./images/mockup23.jpg"/>
+                <Image alt="pizza app" url="./images/wireframePaymentPage.jpg"/>
               </div>
             </div>
           </div>
@@ -312,7 +311,7 @@ const listItems = [
         </div>
       </div>
     </section>
-    <section class="usability-study-section bg-mauve-taupe bg-opacity-50">
+    <section class="usability-study-section bg-project-pink ">
       <div class="container">
         <h3 class="text-center title-section">USABILITY STUDY FINDINGS:</h3>
         <div class="section-wrapper row">
@@ -347,13 +346,13 @@ const listItems = [
           <div class="col-12 col-lg-8 text-center">
             <div class="row">
               <div class="col-5">
-                <Image alt="pizza app" url="./images/mockup04.jpg"/>
+                <Image alt="pizza app" url="./images/wireframeMainMenu.jpg"/>
               </div>
               <div class="col-2 d-flex align-items-center justify-content-center">
                 <font-awesome-icon icon="fa-solid fa-long-arrow-right"/>
               </div>
               <div class="col-5">
-                <Image alt="pizza app" url="./images/mockup04.jpg"/>
+                <Image alt="pizza app" url="./images/mockup05.jpg"/>
               </div>
             </div>
           </div>
@@ -364,30 +363,68 @@ const listItems = [
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-8">images 2</div>
-          <div class="col-12 col-lg-4 text-center">Based on the insight that users needed easier-to-click
+          <div class="col-12 col-lg-8 text-center">
+            <div class="row">
+              <div class="col-5">
+                <Image alt="pizza app" url="./images/wireframeItemAddedToCart.jpg"/>
+              </div>
+              <div class="col-2 d-flex align-items-center justify-content-center">
+                <font-awesome-icon icon="fa-solid fa-long-arrow-right"/>
+              </div>
+              <div class="col-5">
+                <Image alt="pizza app" url="./images/mockup10.jpg"/>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 text-center d-flex align-items-center"><p>Based on the insight that users needed
+            easier-to-click
             buttons and bigger, easier-to-read text, those changes were implemented on various screens,
             notably the screens with modals, which now take up almost the full mobile screen size with both
-            larger text and buttons for better usability.
+            larger text and buttons for better usability.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-8">images 3</div>
-          <div class="col-12 col-lg-4 text-center">Based on the insight that users found the Payment Page
+          <div class="col-12 col-lg-8 text-center">
+            <div class="row">
+              <div class="col-5">
+                <Image alt="pizza app" url="./images/wireframePaymentPage.jpg"/>
+              </div>
+              <div class="col-2 d-flex align-items-center justify-content-center">
+                <font-awesome-icon icon="fa-solid fa-long-arrow-right"/>
+              </div>
+              <div class="col-5">
+                <Image alt="pizza app" url="./images/mockup16.jpg"/>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 text-center d-flex align-items-center"><p>Based on the insight that users found
+            the Payment Page
             confusing and crowded, more steps were added to the payment process, each being well-spaced-out
-            and with a clear purpose.
+            and with a clear purpose.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-8">images 4</div>
-          <div class="col-12 col-lg-4 text-center">Based on the insight that users need a more useful Profile
-            Page that can act as a hub to access their important account information, the change was made
-            from a simple form to a more useful and usable mini-landing-page.
+          <div class="col-12 col-lg-8 text-center">
+            <div class="row">
+              <div class="col-5">
+                <Image alt="pizza app" url="./images/wireframeProfilePage.jpg"/>
+              </div>
+              <div class="col-2 d-flex align-items-center justify-content-center">
+                <font-awesome-icon icon="fa-solid fa-long-arrow-right"/>
+              </div>
+              <div class="col-5">
+                <Image alt="pizza app" url="./images/mockup25.jpg"/>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 text-center d-flex align-items-center"><p>Based on the insight that users need a
+            more useful Profile Page that can act as a hub to access their important account information, the change was
+            made from a simple form to a more useful and usable mini-landing-page.</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="quote-section bg-mid-dark-green bg-opacity-25">
+    <section class="quote-section bg-project-light-green ">
       <font-awesome-icon icon="fa-solid fa-quote-left"/>
       <div class="container text-center">
         <div class="section-wrapper">
@@ -402,7 +439,7 @@ const listItems = [
       <font-awesome-icon icon="fa-solid fa-quote-right"/>
     </section>
     <section class="met-section">
-      <div class="container text-center">
+      <div class="container">
         <div class="section-wrapper">
           <h3 class="text-center title-section">HOW PRODUCT MET INITIAL CHALLENGES:</h3>
           <div>
@@ -428,7 +465,7 @@ const listItems = [
       <div class="container text-center">
         <div class="section-wrapper">
           <h3 class="text-center title-section">STYLE GUIDE:</h3>
-          <Image alt="usability study" url="./images/usability-study.JPG"/>
+          <Image alt="usability study" url="./images/styleGuide.jpg"/>
         </div>
       </div>
     </section>
@@ -436,8 +473,11 @@ const listItems = [
       <div class="container text-center">
         <div class="section-wrapper">
           <h3 class="text-center title-section">FINAL PROTOTYPE:</h3>
-          <Image alt="usability study" url="./images/usability-study.JPG"/>
-          <p>SEE THE FINAL PROTOTYPE FOR YOURSELF HERE</p>
+          <video width="320" height="240" controls="false">
+            <source src="/videos/prototype-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p>SEE THE FINAL PROTOTYPE FOR YOURSELF <a href="https://www.figma.com/proto/b9Vm6IV3dA0P2OZpp02juD/Peque%C3%B1a-Italia-Pizza?page-id=371%3A1312&type=design&node-id=375-1322&viewport=437%2C297%2C0.11&scaling=scale-down&starting-point-node-id=375%3A1322">HERE</a></p>
         </div>
       </div>
     </section>

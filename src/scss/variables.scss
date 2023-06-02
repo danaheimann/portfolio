@@ -20,11 +20,11 @@ $font-lg: 1.375rem; // 22px
 $font-xl: 1.563rem; // 25px
 $font-xxl: 1.563rem; // 30px
 
-$font-size-xl: 1.375rem; // 22px
-$font-size-lg: 1.25rem; // 20px
-$font-size-md: 1.125rem; // 18px
-$font-size-sm: 1rem; // 16px
-$font-size-xs: 0.875rem; // 14px
+//$font-size-xl: 1.375rem; // 22px
+//$font-size-lg: 1.25rem; // 20px
+//$font-size-md: 1.125rem; // 18px
+//$font-size-sm: 1rem; // 16px
+//$font-size-xs: 0.875rem; // 14px
 
 // Colors
 //#11270B Phthalo Green
@@ -47,6 +47,13 @@ $mauve-taupe: #916577;
 $old-mauve: #602941;
 $mid-grey: #C4C4C4;
 
+// Pizza app colors
+//$project-yellow:#FFB60A;
+$project-green: #058E3F;
+$project-pink: #FBDFDF;
+$project-light-green: #C5E5D3;
+$project-red: #E00000;
+
 $body-color: #000;
 
 // Then add them to your custom theme-colors map, together with any additional colors you might need
@@ -60,6 +67,10 @@ $theme-colors: (
         mauve-taupe: $mauve-taupe,
         old-mauve: $old-mauve,
         mid-grey: $mid-grey,
+        project-green:$project-green,
+        project-light-green:$project-light-green,
+        project-red:$project-red,
+        project-pink:$project-pink
 );
 
 
@@ -85,7 +96,6 @@ $btn-border-radius: 25px;
 
 
 $font-family-base: $font-family-svarga-regular;
-
 
 
 // Separator variables
