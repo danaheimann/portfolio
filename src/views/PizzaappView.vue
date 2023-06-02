@@ -113,8 +113,8 @@ const listItems = [
             communicate their brand and offerings, which are great.</p>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-6">
-            <div class="competitive-analysis-section-card bg-project-pink  text-center h-100">
+          <div class="col-12 col-lg-6 pb-4 pb-lg-0 pb-xl-0">
+            <div class="competitive-analysis-section-card bg-project-pink  text-center h-100 p-4">
               <h5 class="title-section">Problems</h5>
               <ul class="d-flex flex-column align-items-center py-3">
                 <li>Poor online presence (app & website)</li>
@@ -133,7 +133,7 @@ const listItems = [
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="competitive-analysis-section-card  bg-project-light-green  text-center h-100">
+            <div class="competitive-analysis-section-card  bg-project-light-green  text-center h-100 p-4">
               <h5 class="title-section">Opportunities</h5>
               <ul class="d-flex flex-column align-items-center py-3">
                 <li>Create dedicated app & website</li>
@@ -473,7 +473,7 @@ const listItems = [
       <div class="container text-center">
         <div class="section-wrapper">
           <h3 class="text-center title-section">FINAL PROTOTYPE:</h3>
-          <video width="320" height="240" controls="false">
+          <video width="300" height="600" controls="false">
             <source src="/videos/prototype-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
