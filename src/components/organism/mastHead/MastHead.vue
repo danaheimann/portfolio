@@ -3,12 +3,10 @@ import './mast-head.scss'
 
 const props = defineProps({
   title: {
-    type: String,
-    required: true
+    type: String
   },
   subtitle: {
-    type: String,
-    required: true
+    type: String
   },
   image: {
     type: String,
@@ -24,10 +22,10 @@ const imageStyle = "background-image: url('" + props.image + "');";
   <header class="masthead" :style="imageStyle">
     <div class="masthead-filter h-100">
       <div class="container h-100">
-        <div class="row h-100 align-items-end">
-          <div class="col-12 text-center">
-            <h1>{{ title }}</h1>
-            <p class="lead">{{ subtitle }}</p>
+        <div class="row h-100 align-items-end text-primary">
+          <div class="col-12 text-center mb-3">
+            <h1 class="p-0">{{ title }}</h1>
+            <p class="lead p-0">{{ subtitle }}</p>
           </div>
         </div>
       </div>

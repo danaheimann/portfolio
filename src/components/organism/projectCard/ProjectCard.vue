@@ -29,11 +29,13 @@ defineProps({
 <template>
   <article class="project-card row" v-if="image.position === 'left'">
     <div class="project-card_image col-12 col-md-6">
-      <Image :alt="image.alt" :url="image.url"/>
+      <router-link :to="link">
+        <Image :alt="image.alt" :url="image.url"/>
+      </router-link>
     </div>
     <div class="project-card_body col-12 col-md-6 text-old-mauve">
       <h3 class="project-card_body--title">{{ title }}</h3>
-<!--      <p class="project-card_body&#45;&#45;text">{{ description }}</p>-->
+      <!--      <p class="project-card_body&#45;&#45;text">{{ description }}</p>-->
 
       <dl class="project-card_body__list row">
         <ListItem v-for="listItem in listItems" :label="listItem.label" :description="listItem.description"></ListItem>
@@ -50,7 +52,7 @@ defineProps({
   <article class="project-card row" v-else>
     <div class="project-card_body col-12 col-md-6 order-2 order-md-1 text-old-mauve">
       <h3 class="project-card_body--title">{{ title }}</h3>
-<!--      <p class="project-card_body&#45;&#45;text">{{ description }}</p>-->
+      <!--      <p class="project-card_body&#45;&#45;text">{{ description }}</p>-->
 
       <dl class="project-card_body__list row">
         <ListItem v-for="listItem in listItems" :label="listItem.label" :description="listItem.description"></ListItem>
@@ -63,7 +65,9 @@ defineProps({
       </div>
     </div>
     <div class="project-card_image col-12 col-md-6 order-1 order-md-2">
-      <Image :alt="image.alt" :url="image.url"/>
+      <router-link :to="link">
+        <Image :alt="image.alt" :url="image.url"/>
+      </router-link>
     </div>
   </article>
   <Separator/>

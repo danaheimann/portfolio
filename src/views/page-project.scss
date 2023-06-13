@@ -125,6 +125,10 @@
 
     .competitive-analysis-section-description {
       padding-block-end: 4rem;
+      padding-inline: 0;
+      @include media-breakpoint-up(lg) {
+        padding-inline: 10rem;
+      }
     }
 
   }

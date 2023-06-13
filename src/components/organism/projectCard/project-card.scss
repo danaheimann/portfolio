@@ -1,10 +1,6 @@
 @import "../../../scss/base-components";
 
 .project-card {
-  &:last-of-type + hr,
-  &:only-of-type + hr {
-    display: none;
-  }
 
   .project-card_image {
     padding-block-end: 2rem;

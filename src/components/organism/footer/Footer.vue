@@ -36,17 +36,17 @@ defineProps({
         <a href="https://www.linkedin.com/in/danaheimann/" class="p-3">
           <font-awesome-icon icon="fa-brands fa-linkedin" size="2x"/>
         </a>
-        <a href="https://dribbble.com/danaheimann" class="p-3">
-          <font-awesome-icon icon="fa-brands fa-dribbble" size="2x"/>
-        </a>
-        <a href="https://www.behance.net/danaheimann" class="p-3">
-          <font-awesome-icon icon="fa-brands fa-behance" size="2x"/>
-        </a>
         <a href="https://flickr.com/photos/danaheimann/" class="p-3">
           <font-awesome-icon icon="fa-brands fa-flickr" size="2x"/>
         </a>
         <a href="https://www.instagram.com/the.memory.archive/" class="p-3">
           <font-awesome-icon icon="fa-brands fa-instagram" size="2x"/>
+        </a>
+<!--        <a href="https://dribbble.com/danaheimann" class="p-3">-->
+<!--          <font-awesome-icon icon="fa-brands fa-dribbble" size="2x"/>-->
+<!--        </a>-->
+        <a href="https://www.behance.net/danaheimann" class="p-3">
+          <font-awesome-icon icon="fa-brands fa-behance" size="2x"/>
         </a>
         <a href="https://github.com/danaheimann" class="p-3">
           <font-awesome-icon icon="fa-brands fa-github" size="2x"/>

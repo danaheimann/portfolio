@@ -16,17 +16,20 @@ section {
       position: absolute;
       inset-inline-start: 50%;
       transform: translateX(-50%);
+      margin-block-start: 1rem;
     }
+  }
+}
+.intro-text-section {
+  font-size: $font-sm;
+  @include media-breakpoint-up(md) {
+    font-size: $font-lg;
   }
 }
 
 .h3, h3,
 .h4, h4 {
   font-family: $font-family-svarga-regular;
-}
-
-.h4, h4 {
-  text-transform: uppercase;
 }
 
 .h2, h2,

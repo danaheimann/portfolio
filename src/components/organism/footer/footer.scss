@@ -25,10 +25,10 @@ footer {
 
     .footer-copyright {
       color: $mid-dark-green;
-      font-size: $h5-font-size;
+      font-size: $h6-font-size;
       font-family: $font-family-aqala-display;
       @include media-breakpoint-up(md) {
-        font-size: $h3-font-size;
+        font-size: $h4-font-size;
       }
     }
 

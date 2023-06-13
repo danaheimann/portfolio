@@ -47,10 +47,9 @@ const listItems = [
           <div class="col-12 col-md-6">
             <h4 class="text-center title-section">ABOUT</h4>
             <div class="text-center">
-              This is a mobile ordering app for local pizzeria, Pequeña Italia, which has many loyal
-              customers including families with full-time working parents as well as young professionals
-              and people with food sensitivities, but has no website or other online presence besides a
-              Google Maps page.
+              A local pizzeria, Pequeña Italia, is stuck in the past, with no website or other online presence besides a
+              Google Maps page. This project gives Pequeña Italia a mobile-ordering app, taking an already popular and
+              successful restaurant to the next level with a modern way to order and generate more business.
             </div>
           </div>
           <div class="col-12 col-md-6">
@@ -115,7 +114,7 @@ const listItems = [
         <div class="row">
           <div class="col-12 col-lg-6 pb-4 pb-lg-0 pb-xl-0">
             <div class="competitive-analysis-section-card bg-project-pink  text-center h-100 p-4">
-              <h5 class="title-section">Problems</h5>
+              <h4 class="title-section">PROBLEMS</h4>
               <ul class="d-flex flex-column align-items-center py-3">
                 <li>Poor online presence (app & website)</li>
                 <li>Weak brand identity</li>
@@ -134,7 +133,7 @@ const listItems = [
           </div>
           <div class="col-12 col-lg-6">
             <div class="competitive-analysis-section-card  bg-project-light-green  text-center h-100 p-4">
-              <h5 class="title-section">Opportunities</h5>
+              <h4 class="title-section">OPPORTUNITIES</h4>
               <ul class="d-flex flex-column align-items-center py-3">
                 <li>Create dedicated app & website</li>
                 <li>Strengthen brand identity– Logo redesign?</li>
@@ -477,7 +476,9 @@ const listItems = [
             <source src="/videos/prototype-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <p>SEE THE FINAL PROTOTYPE FOR YOURSELF <a href="https://www.figma.com/proto/b9Vm6IV3dA0P2OZpp02juD/Peque%C3%B1a-Italia-Pizza?page-id=371%3A1312&type=design&node-id=375-1322&viewport=437%2C297%2C0.11&scaling=scale-down&starting-point-node-id=375%3A1322">HERE</a></p>
+          <p>SEE THE FINAL PROTOTYPE FOR YOURSELF <a
+              href="https://www.figma.com/proto/b9Vm6IV3dA0P2OZpp02juD/Peque%C3%B1a-Italia-Pizza?page-id=371%3A1312&type=design&node-id=375-1322&viewport=437%2C297%2C0.11&scaling=scale-down&starting-point-node-id=375%3A1322">HERE</a>
+          </p>
         </div>
       </div>
     </section>
