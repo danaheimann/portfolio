@@ -106,7 +106,7 @@ const projectCards = [
       <div class="container">
         <h2 class="title-section text-old-mauve text-center"><A name="my-work">MY WORK</A></h2>
         <div class="row">
-          <div class="col-12 col-lg-10">
+          <div class="col-12">
             <ProjectCard v-for="projectCard in projectCards"
                          :title="projectCard.title"
                          :description="projectCard.description"

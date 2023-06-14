@@ -52,7 +52,7 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
     </section>
     <section class="bg-secondary bg-opacity-25">
       <div class="container">
-        <h2 class="text-center title-section">Skills</h2>
+        <h2 class="text-center title-section">SKILLS</h2>
         <div class="row justify-content-center">
           <div class="col-10 col-lg-12">
             <div class="dn-list-group-wrapper row">
@@ -75,7 +75,7 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
                 </ul>
               </div>
               <div class="dn-list-group col-12 col-md-6 col-lg-3">
-                <h4 class="dn-list-group__title">Design</h4>
+                <h4 class="dn-list-group__title">DESIGN</h4>
                 <ul class="dn-list-group__ul">
                   <li>Typography</li>
                   <li>Visual Hierarchy</li>
@@ -83,7 +83,7 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
                 </ul>
               </div>
               <div class="dn-list-group col-12 col-md-6 col-lg-3">
-                <h4 class="dn-list-group__title">Coding</h4>
+                <h4 class="dn-list-group__title">CODING</h4>
                 <ul class="dn-list-group__ul">
                   <li>HTML</li>
                   <li>CSS</li>
@@ -94,7 +94,7 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
                 </ul>
               </div>
               <div class="dn-list-group col-12 col-md-6 col-lg-3">
-                <h4 class="dn-list-group__title">General</h4>
+                <h4 class="dn-list-group__title">GENERAL</h4>
                 <ul class="dn-list-group__ul">
                   <li>Fluent in Spanish</li>
                   <li>Teaching</li>
@@ -111,7 +111,7 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
     </section>
     <section>
       <div class="container">
-        <h2 class="text-center title-section">Tools</h2>
+        <h2 class="text-center title-section">TOOLS</h2>
         <div class="row justify-content-center">
           <div class="col-8 col-sm-6 col-md-3">
             <div class="dn-list-group-wrapper">
@@ -132,7 +132,7 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
     </section>
     <section class="bg-secondary bg-opacity-25">
       <div class="container dn-education">
-        <h2 class="text-center title-section">Education</h2>
+        <h2 class="text-center title-section">EDUCATION</h2>
         <div class="row justify-content-center">
           <div class="col-12 col-sm-8 col-md-6">
             <div class="dn-education-group">
@@ -163,7 +163,6 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
       <div class="text-center dn-btn-wrapper">
         <a href="./UX_UI_dana_heimann.pdf" target=”_blank” class="dn-btn-outline-old-mauve">
           SEE MY CV
-          <font-awesome-icon icon="fa-regular fa-circle-right"/>
         </a>
         <Separator/>
       </div>
