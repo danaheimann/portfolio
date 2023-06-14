@@ -3,8 +3,6 @@
 .page-wrapper#about,
 .page-wrapper#pizzaapp {
   .navbar {
-    position: fixed;
-
     .navbar-nav .nav-link,
     .navbar-brand div {
       color: $old-mauve !important;
@@ -16,7 +14,7 @@
   .navbar {
     z-index: 10;
     height: $navbar-height;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
 
@@ -31,26 +29,6 @@
           font-size: $h4-font-size;
         }
       }
-
-
-
-      //.navbar-brand {
-      //  font-family: $font-family-aqala-display;
-      //  font-size: $nav-link-font-size;
-      //  font-weight: bold;
-      //}
-      //
-      //ul.navbar-nav {
-      //  li.nav-item {
-      //    .nav-link {
-      //      font-family: $font-family-aqala-display;
-      //      color: $primary;
-      //      display: inline-block;
-      //      padding-inline-start: 1.5rem;
-      //      font-weight: bold;
-      //    }
-      //  }
-      //}
     }
   }
 }
