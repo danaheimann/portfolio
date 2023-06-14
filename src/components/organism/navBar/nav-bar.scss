@@ -3,7 +3,8 @@
 .page-wrapper#about,
 .page-wrapper#pizzaapp {
   .navbar {
-  position: fixed;
+    position: fixed;
+
     .navbar-nav .nav-link,
     .navbar-brand div {
       color: $old-mauve !important;
@@ -11,30 +12,46 @@
   }
 }
 
-.navbar {
-  z-index: 10;
-  height: $navbar-height;
-  position: fixed;
-  top: 0;
-  width: 100%;
+.page-wrapper {
+  .navbar {
+    z-index: 10;
+    height: $navbar-height;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
-  .container {
-    .navbar-brand {
-      font-family: $font-family-aqala-display;
-      font-size: $nav-link-font-size;
-      font-weight: bold;
-    }
+    .container {
+      a {
+        font-size: $font-xl;
+        font-weight: bold;
+        color: $primary;
+        font-family: $font-family-aqala-display;
 
-    ul.navbar-nav {
-      li.nav-item {
-        .nav-link {
-          font-family: $font-family-aqala-display;
-          color: $primary;
-          display: inline-block;
-          padding-inline-start: 1.5rem;
-          font-weight: bold;
+        @include media-breakpoint-up(md) {
+          font-size: $h4-font-size;
         }
       }
+
+
+
+      //.navbar-brand {
+      //  font-family: $font-family-aqala-display;
+      //  font-size: $nav-link-font-size;
+      //  font-weight: bold;
+      //}
+      //
+      //ul.navbar-nav {
+      //  li.nav-item {
+      //    .nav-link {
+      //      font-family: $font-family-aqala-display;
+      //      color: $primary;
+      //      display: inline-block;
+      //      padding-inline-start: 1.5rem;
+      //      font-weight: bold;
+      //    }
+      //  }
+      //}
     }
   }
 }
+
