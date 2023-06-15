@@ -4,7 +4,7 @@ import './nav-bar.scss'
 </script>
 
 <template>
-  <nav class="navbar bg-secondary bg-opacity-75">
+  <nav class="navbar bg-secondary">
     <div class="container">
       <router-link to="/" class="navbar-brand">
 <!--        <img alt="Dana logo" src="../../../assets/logo.svg" width="55"/>-->

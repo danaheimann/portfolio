@@ -4,6 +4,7 @@ import './page-project.scss'
 import MastHead from "../components/organism/mastHead/MastHead.vue";
 import ListItem from "../components/atoms/listItem/ListItem.vue";
 import Image from "../components/atoms/image/Image.vue";
+import Separator from "../components/atoms/separator/Separator.vue";
 
 
 // data variables
@@ -57,20 +58,18 @@ const listItems = [
             <div>
               <ol>
                 <li><u>Starting From Zero</u>
-                  --How can we take a business that doesn’t even
-                  have a website into
-                  the twenty-first century with a mobile ordering application?
+                  --How can we take a business that doesn’t even have a website into the twenty-first century with a
+                  mobile ordering application?
                 </li>
                 <li><u>Accessibility</u>
-                  --Blurry, out-of-order menu photos that one has to search for in the
-                  restaurant’s Google Maps page need to be transformed into a useful, usable, and
-                  accessible mobile app that users on any device and of any ability are able to use
+                  --Blurry, out-of-order, not-readily-available menu photos need to be transformed into a useful,
+                  usable, and accessible mobile app that users on any device and of any ability are able to use
                   successfully.
                 </li>
                 <li><u>Allergens</u>
-                  --Users with food sensitivities cannot readily identify which items on the
-                  menu have potential allergens, and there is no way to alert the business aside from
-                  calling and telling them over the phone.
+                  --Users with food sensitivities cannot readily identify which items on the menu have potential
+                  allergens, and there is no way to alert the business aside from calling and telling them over the
+                  phone.
                 </li>
               </ol>
             </div>
@@ -101,19 +100,21 @@ const listItems = [
           <h4 class="text-center">PROBLEMS & OPPORTUNITIES</h4>
         </div>
         <div class="text-center competitive-analysis-section-description">
-          <p>Key direct competitors for Pequeña
-            Italia are the other local pizzerias in
-            Olivares. Not one of the local restaurants, Pequeña Italia included, has a functional working
-            website with a full menu and integrated way to order online.</p>
-          <p>
-            Pequeña Italia is the only place to offer 2-for-1 pizzas any size, any day, as well as free drinks
-            with pizza purchase when dining in. They also have the largest selection of pizzas on offer of all
-            the local pizzerias. The real missed opportunity here is not having a true online presence to
-            communicate their brand and offerings, which are great.</p>
+          <div class="section-wrapper">
+            <p>Key direct competitors for Pequeña
+              Italia are the other local pizzerias in
+              Olivares. Not one of the local restaurants, Pequeña Italia included, has a functional working
+              website with a full menu and integrated way to order online.</p>
+            <p>
+              Pequeña Italia is the only place to offer 2-for-1 pizzas any size, any day, as well as free drinks
+              with pizza purchase when dining in. They also have the largest selection of pizzas on offer of all
+              the local pizzerias. The real missed opportunity here is not having a true online presence to
+              communicate their brand and offerings, which are great.</p>
+          </div>
         </div>
         <div class="row">
           <div class="col-12 col-lg-6 pb-4 pb-lg-0 pb-xl-0">
-            <div class="competitive-analysis-section-card bg-project-pink  text-center h-100 p-4">
+            <div class="competitive-analysis-section-card bg-project-pink  text-center h-100 p-5">
               <h4 class="title-section">PROBLEMS</h4>
               <ul class="d-flex flex-column align-items-center py-3">
                 <li>Poor online presence (app & website)</li>
@@ -132,7 +133,7 @@ const listItems = [
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="competitive-analysis-section-card  bg-project-light-green  text-center h-100 p-4">
+            <div class="competitive-analysis-section-card  bg-project-light-green  text-center h-100 p-5">
               <h4 class="title-section">OPPORTUNITIES</h4>
               <ul class="d-flex flex-column align-items-center py-3">
                 <li>Create dedicated app & website</li>
@@ -185,7 +186,7 @@ const listItems = [
         <h3 class="text-center title-section">USER PERSONAS:</h3>
         <div class="row text-center">
           <div class="col-12 col-lg-6 user-personas-section-person">
-            <div class="container-fluid border border-2 border-project-green h-100 p-4">
+            <div class="container-fluid border border-2 border-project-green h-100 p-5">
               <div class="user-personas-section-person-title text-project-green my-3">Sebastian</div>
               <Image alt="pizza app" url="./images/personaSebastianSquare.jpeg"
                      class="img-fluid border-project-green border border-1"/>
@@ -228,9 +229,9 @@ const listItems = [
             </div>
           </div>
           <div class="col-12 col-lg-6 user-personas-section-person">
-            <div class="container-fluid border border-2 border-project-red h-100 p-4">
+            <div class="container-fluid border border-2 border-project-red h-100 p-5">
               <div class="user-personas-section-person-title text-project-red my-3">Elena</div>
-              <Image alt="pizza app" url="./images/personaSebastianSquare.jpeg"
+              <Image alt="pizza app" url="./images/personaElenaSquare.jpeg"
                      class="img-fluid border-project-red border border-1"/>
               <div class="col-12 text-project-red my-3">
                 <div class="row">
@@ -266,7 +267,7 @@ const listItems = [
         </div>
       </div>
     </section>
-    <section class="">
+    <section class="site-map-section">
       <div class="container">
         <h3 class="text-center title-section">SITEMAP:</h3>
         <div class="section-wrapper text-center">
@@ -319,22 +320,19 @@ const listItems = [
           </div>
           <div class="col-12 col-lg-4 pt-3 pt-lg-0">
             <ol>
-              <li class="pb-3">Starting From Zero--How can we take a business that doesn’t even have a website into the
-                twenty-first century with a mobile ordering application?
+              <li class="pb-3">Users expect a landing page, so an insight was to create a homepage that has general
+                information about the business (like address and hours as well as a photo of the restaurant) as the
+                first thing users see.
               </li>
-              <li class="pb-3">Accessibility--Blurry, out-of-order menu photos that one has to search for in the
-                restaurant’s Google Maps page need to be transformed into a useful, usable, and
-                accessible mobile app that users on any device and of any ability are able to use
-                successfully.
+              <li class="pb-3">Users need more spacing and easier-to-read text for the app to be legible and
+                user-friendly. Also, important elements need to be larger to ensure clickability and usability for most
+                users.
               </li>
-              <li>Allergens--Users with food sensitivities cannot readily identify which items on the menu
-                have potential allergens, and there is no way to alert the business aside from calling
-                and telling them over the phone.
+              <li>For almost all users, the payment page needs to be redesigned with clearer options, more space, and
+                more steps.
               </li>
-
             </ol>
           </div>
-
         </div>
       </div>
     </section>
@@ -348,7 +346,7 @@ const listItems = [
                 <Image alt="pizza app" url="./images/wireframeMainMenu.jpg"/>
               </div>
               <div class="col-2 d-flex align-items-center justify-content-center">
-                <font-awesome-icon icon="fa-solid fa-long-arrow-right"/>
+                <font-awesome-icon icon="fa-solid fa-long-arrow-right" class="fa-xl"/>
               </div>
               <div class="col-5">
                 <Image alt="pizza app" url="./images/mockup05.jpg"/>
@@ -368,7 +366,7 @@ const listItems = [
                 <Image alt="pizza app" url="./images/wireframeItemAddedToCart.jpg"/>
               </div>
               <div class="col-2 d-flex align-items-center justify-content-center">
-                <font-awesome-icon icon="fa-solid fa-long-arrow-right"/>
+                <font-awesome-icon icon="fa-solid fa-long-arrow-right" class="fa-xl"/>
               </div>
               <div class="col-5">
                 <Image alt="pizza app" url="./images/mockup10.jpg"/>
@@ -389,7 +387,7 @@ const listItems = [
                 <Image alt="pizza app" url="./images/wireframePaymentPage.jpg"/>
               </div>
               <div class="col-2 d-flex align-items-center justify-content-center">
-                <font-awesome-icon icon="fa-solid fa-long-arrow-right"/>
+                <font-awesome-icon icon="fa-solid fa-long-arrow-right" class="fa-xl"/>
               </div>
               <div class="col-5">
                 <Image alt="pizza app" url="./images/mockup16.jpg"/>
@@ -409,7 +407,7 @@ const listItems = [
                 <Image alt="pizza app" url="./images/wireframeProfilePage.jpg"/>
               </div>
               <div class="col-2 d-flex align-items-center justify-content-center">
-                <font-awesome-icon icon="fa-solid fa-long-arrow-right"/>
+                <font-awesome-icon icon="fa-solid fa-long-arrow-right" class="fa-xl"/>
               </div>
               <div class="col-5">
                 <Image alt="pizza app" url="./images/mockup25.jpg"/>
@@ -424,7 +422,18 @@ const listItems = [
       </div>
     </section>
     <section class="quote-section bg-project-light-green ">
-      <font-awesome-icon icon="fa-solid fa-quote-left"/>
+      <div class="quote-section-left-icon-group">
+        <svg width="102" height="176" viewBox="0 0 102 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+              d="M0.508725 120.274C0.508727 95.8663 5.06672 81.4569 19.9562 58.0784C35.3014 34.2589 65.3841 10.8804 87.2625 -0.000138757L94.2514 13.0859C75.4117 26.0249 63.2571 36.1703 49.887 61.0191C46.0886 68.0768 43.9616 74.2522 42.7461 79.8395C45.6328 79.2514 48.8234 78.9573 52.014 78.9573C79.6658 78.9573 102 100.718 102 127.479C102 154.239 79.6658 176 52.014 176C29.0721 176 9.6247 161.002 3.85125 140.418C1.72419 134.536 0.508724 127.92 0.508725 120.274Z"
+              fill="white"/>
+        </svg>
+        <svg width="102" height="176" viewBox="0 0 102 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+              d="M0.508725 120.274C0.508727 95.8663 5.06672 81.4569 19.9562 58.0784C35.3014 34.2589 65.3841 10.8804 87.2625 -0.000138757L94.2514 13.0859C75.4117 26.0249 63.2571 36.1703 49.887 61.0191C46.0886 68.0768 43.9616 74.2522 42.7461 79.8395C45.6328 79.2514 48.8234 78.9573 52.014 78.9573C79.6658 78.9573 102 100.718 102 127.479C102 154.239 79.6658 176 52.014 176C29.0721 176 9.6247 161.002 3.85125 140.418C1.72419 134.536 0.508724 127.92 0.508725 120.274Z"
+              fill="white"/>
+        </svg>
+      </div>
       <div class="container text-center">
         <div class="section-wrapper">
           <div class="quote-text">It's good that the first thing you see is the title, this beautiful photo of
@@ -435,7 +444,19 @@ const listItems = [
           <div class="quote-author text-uppercase pt-3">-Marielle, pizza lover from NYC</div>
         </div>
       </div>
-      <font-awesome-icon icon="fa-solid fa-quote-right"/>
+
+      <div class="quote-section-right-icon-group">
+        <svg width="102" height="176" viewBox="0 0 102 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+              d="M101.492 55.726C101.492 80.1337 96.9336 94.543 82.0441 117.921C66.6988 141.741 36.616 165.119 14.7376 176L7.74861 162.914C26.5884 149.975 38.743 139.83 52.1132 114.981C55.9115 107.923 58.0386 101.748 59.2541 96.1604C56.3673 96.7485 53.1767 97.0426 49.9861 97.0426C22.3342 97.0426 0 75.2815 0 48.5213C0 21.7611 22.3342 0 49.9861 0C72.9281 0 92.3756 14.9975 98.1491 35.5823C100.276 41.4637 101.492 48.0802 101.492 55.726Z"
+              fill="white"/>
+        </svg>
+        <svg width="102" height="176" viewBox="0 0 102 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+              d="M101.492 55.726C101.492 80.1337 96.9336 94.543 82.0441 117.921C66.6988 141.741 36.616 165.119 14.7376 176L7.74861 162.914C26.5884 149.975 38.743 139.83 52.1132 114.981C55.9115 107.923 58.0386 101.748 59.2541 96.1604C56.3673 96.7485 53.1767 97.0426 49.9861 97.0426C22.3342 97.0426 0 75.2815 0 48.5213C0 21.7611 22.3342 0 49.9861 0C72.9281 0 92.3756 14.9975 98.1491 35.5823C100.276 41.4637 101.492 48.0802 101.492 55.726Z"
+              fill="white"/>
+        </svg>
+      </div>
     </section>
     <section class="met-section">
       <div class="container">
@@ -477,7 +498,7 @@ const listItems = [
             Your browser does not support the video tag.
           </video>
           <p>SEE THE FINAL PROTOTYPE FOR YOURSELF <a
-              href="https://www.figma.com/proto/b9Vm6IV3dA0P2OZpp02juD/Peque%C3%B1a-Italia-Pizza?page-id=371%3A1312&type=design&node-id=375-1322&viewport=437%2C297%2C0.11&scaling=scale-down&starting-point-node-id=375%3A1322">HERE</a>
+              href="https://www.figma.com/proto/b9Vm6IV3dA0P2OZpp02juD/Peque%C3%B1a-Italia-Pizza?page-id=371%3A1312&type=design&node-id=375-1322&viewport=437%2C297%2C0.11&scaling=scale-down&starting-point-node-id=375%3A1322" target="_blank">HERE</a>
           </p>
         </div>
       </div>
@@ -494,5 +515,14 @@ const listItems = [
         </div>
       </div>
     </section>
+
+    <div class="container dn-see-my-cv">
+      <div class="text-center dn-btn-wrapper">
+        <a href="./UX_UI_dana_heimann.pdf" target=”_blank” class="dn-btn-outline-old-mauve">
+          PROCESS DECK
+        </a>
+        <Separator/>
+      </div>
+    </div>
   </main>
 </template>

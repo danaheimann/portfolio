@@ -11,7 +11,7 @@
 //$project-green:#058E3F;
 //$project-pink:#F7BFBF;
 //$project-light-green:#C1E3CF;
-
+$section-width: 600px;
 
 .page-project {
   .masthead-wrapper {
@@ -34,7 +34,7 @@
   .page-project-highlight {
 
     .wrapper-list {
-      max-width: 700px;
+      max-width: $section-width;
       margin-inline: auto;
 
       .project-card_body__list {
@@ -94,14 +94,17 @@
           padding-block-end: 4rem;
         }
       }
+
       .user-personas-section-person-title {
         font-family: $font-family-svarga-regular;
         font-size: $font-xl;
       }
+
       dt {
         font-weight: normal;
         text-decoration: underline;
       }
+
       img {
         border-radius: 50%;
       }
@@ -116,6 +119,7 @@
 
       h4 {
         padding-block-end: 2rem;
+        padding-block-start: 3rem;
       }
     }
 
@@ -125,10 +129,6 @@
 
     .competitive-analysis-section-description {
       padding-block-end: 4rem;
-      padding-inline: 0;
-      @include media-breakpoint-up(lg) {
-        padding-inline: 10rem;
-      }
     }
 
   }
@@ -139,11 +139,20 @@
   .quote-section,
   .met-section,
   .takeaweys-section,
-  .final-prototype-section {
+  .final-prototype-section,
+  .competitive-analysis-section-description {
 
     .section-wrapper {
-      max-width: 700px;
+      max-width: $section-width;
       margin: auto;
+    }
+  }
+
+  .site-map-section {
+    img {
+      @include media-breakpoint-up(lg) {
+        padding-inline: 5rem;
+      }
     }
   }
 
@@ -158,37 +167,33 @@
   .quote-section {
     position: relative;
 
-    .svg-inline--fa {
-      color: $white;
-      font-size: 10rem;
+    .quote-section-left-icon-group,
+    .quote-section-right-icon-group {
       position: absolute;
-      z-index: 0;
+    }
 
+    .quote-section-left-icon-group {
+      top: 30px;
+      left: 15px;
+      @include media-breakpoint-up(md) {
+        left: 5%;
+      }
       @include media-breakpoint-up(lg) {
-        font-size: 16rem;
-      }
-      &.fa-quote-left {
-        top: -20px;
-        left: 15px;
-        @include media-breakpoint-up(md) {
-          left: 5%;
-        }
-        @include media-breakpoint-up(lg) {
-          left: 15%;
-        }
-      }
-
-      &.fa-quote-right {
-        bottom: -20px;
-        right: 15px;
-        @include media-breakpoint-up(md) {
-          right: 5%;
-        }
-        @include media-breakpoint-up(lg) {
-          right: 15%;
-        }
+        left: 15%;
       }
     }
+
+    .quote-section-right-icon-group {
+      bottom: 30px;
+      right: 15px;
+      @include media-breakpoint-up(md) {
+        right: 5%;
+      }
+      @include media-breakpoint-up(lg) {
+        right: 15%;
+      }
+    }
+
 
     .container {
       z-index: 10;
@@ -203,9 +208,13 @@
     }
 
   }
+
   .final-prototype-section {
     a {
       color: inherit;
+    }
+    video {
+      padding-block-end: 2rem;
     }
   }
 }
