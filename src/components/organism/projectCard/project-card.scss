@@ -16,7 +16,11 @@
   .project-card_body {
     .project-card_body__list {
       font-family: $font-family-svarga-regular;
-      font-size: $font-xl;
+      font-size: $font-md;
+      @include media-breakpoint-up(lg) {
+        font-size: $font-xl;
+
+      }
     }
 
     .project-card_body--title {

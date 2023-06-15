@@ -136,7 +136,7 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
         <div class="row justify-content-center">
           <div class="col-12 col-sm-8 col-md-6">
             <div class="dn-education-group">
-              <p>GOOGLE USER EXPERIENCE DESIGN PROFESSIONAL CERTIFICATE 2022</p>
+              <p>GOOGLE USER EXPERIENCE DESIGN PROFESSIONAL CERTIFICATE 2023</p>
             </div>
             <div class="dn-education-group">
               <p>STATE UNIVERSITY OF NEW YORK AT NEW PALTZ</p>
@@ -163,6 +163,7 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
       <div class="text-center dn-btn-wrapper">
         <a href="./UX_UI_dana_heimann.pdf" target=”_blank” class="dn-btn-outline-old-mauve">
           SEE MY CV
+          <font-awesome-icon icon="fa-regular fa-circle-right"/>
         </a>
         <Separator/>
       </div>

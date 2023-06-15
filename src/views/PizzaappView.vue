@@ -26,6 +26,17 @@ const listItems = [
 ]
 </script>
 
+
+
+
+
+<!--TODO: Poner el titulo encima de imagen-->
+<!--TODO: Colocar los quote bien-->
+
+
+
+
+
 <template>
   <main class="page-project">
     <div class="masthead-wrapper">
@@ -114,7 +125,7 @@ const listItems = [
         </div>
         <div class="row">
           <div class="col-12 col-lg-6 pb-4 pb-lg-0 pb-xl-0">
-            <div class="competitive-analysis-section-card bg-project-pink  text-center h-100 p-5">
+            <div class="competitive-analysis-section-card bg-project-pink  text-center h-100 p-4 p-lg-5">
               <h4 class="title-section">PROBLEMS</h4>
               <ul class="d-flex flex-column align-items-center py-3">
                 <li>Poor online presence (app & website)</li>
@@ -133,7 +144,7 @@ const listItems = [
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="competitive-analysis-section-card  bg-project-light-green  text-center h-100 p-5">
+            <div class="competitive-analysis-section-card  bg-project-light-green  text-center h-100 p-4 p-lg-5">
               <h4 class="title-section">OPPORTUNITIES</h4>
               <ul class="d-flex flex-column align-items-center py-3">
                 <li>Create dedicated app & website</li>
@@ -186,7 +197,7 @@ const listItems = [
         <h3 class="text-center title-section">USER PERSONAS:</h3>
         <div class="row text-center">
           <div class="col-12 col-lg-6 user-personas-section-person">
-            <div class="container-fluid border border-2 border-project-green h-100 p-5">
+            <div class="container-fluid border border-2 border-project-green h-100  p-4 p-lg-5">
               <div class="user-personas-section-person-title text-project-green my-3">Sebastian</div>
               <Image alt="pizza app" url="./images/personaSebastianSquare.jpeg"
                      class="img-fluid border-project-green border border-1"/>
@@ -229,7 +240,7 @@ const listItems = [
             </div>
           </div>
           <div class="col-12 col-lg-6 user-personas-section-person">
-            <div class="container-fluid border border-2 border-project-red h-100 p-5">
+            <div class="container-fluid border border-2 border-project-red h-100  p-4 p-lg-5">
               <div class="user-personas-section-person-title text-project-red my-3">Elena</div>
               <Image alt="pizza app" url="./images/personaElenaSquare.jpeg"
                      class="img-fluid border-project-red border border-1"/>
@@ -359,6 +370,7 @@ const listItems = [
             well as a photo of the restaurant) as the first thing users see.</p>
           </div>
         </div>
+        <Separator/>
         <div class="row">
           <div class="col-12 col-lg-8 text-center">
             <div class="row">
@@ -380,6 +392,7 @@ const listItems = [
             larger text and buttons for better usability.</p>
           </div>
         </div>
+        <Separator/>
         <div class="row">
           <div class="col-12 col-lg-8 text-center">
             <div class="row">
@@ -400,6 +413,7 @@ const listItems = [
             and with a clear purpose.</p>
           </div>
         </div>
+        <Separator/>
         <div class="row">
           <div class="col-12 col-lg-8 text-center">
             <div class="row">
@@ -520,6 +534,7 @@ const listItems = [
       <div class="text-center dn-btn-wrapper">
         <a href="./UX_UI_dana_heimann.pdf" target=”_blank” class="dn-btn-outline-old-mauve">
           PROCESS DECK
+          <font-awesome-icon icon="fa-regular fa-circle-right"/>
         </a>
         <Separator/>
       </div>

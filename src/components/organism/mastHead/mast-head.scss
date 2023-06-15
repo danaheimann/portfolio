@@ -9,7 +9,8 @@
   background-repeat: no-repeat;
 
   .masthead-filter {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.1) 100%);
+    //background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.1) 100%);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 2%, rgba(0, 0, 0, 0.1) 40%);
   }
 
   .container {
@@ -18,8 +19,12 @@
         h1 {
           line-height: 1;
         }
+
         .lead {
           font-family: $font-family-aqala-display;
+          @include media-breakpoint-down(md) {
+            font-size: 2rem;
+          }
         }
       }
     }

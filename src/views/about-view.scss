@@ -22,13 +22,18 @@
         @include media-breakpoint-down(md) {
           padding: 0;
         }
+        img {
+          @include media-breakpoint-down(md) {
+            margin-block-start: 50px;
+          }
+        }
       }
 
       .header-about__text {
         @include media-breakpoint-down(md) {
           position: absolute;
           bottom: 0;
-          padding-block-end: 2rem;
+          //padding-block-end: 2rem;
         }
         @include media-breakpoint-up(md) {
           display: flex;
@@ -39,6 +44,8 @@
         h1 {
           color: $primary;
           font-size: 5rem;
+          line-height: 1;
+          margin: 0;
           @include media-breakpoint-up(md) {
             color: $old-mauve;
             font-size: 7rem;
@@ -49,6 +56,7 @@
           font-size: 1.8rem;
           color: $secondary;
           font-family: $font-family-aqala-display;
+          margin: 0.5rem;
           @include media-breakpoint-up(md) {
             color: $phthalo-green;
           }
@@ -66,7 +74,6 @@
 }
 
 .dn-see-my-cv {
-  padding-block-end: 10rem;
 
   .dn-btn-wrapper {
     .dn-btn-outline-old-mauve {
@@ -118,6 +125,7 @@
         display: block;
         border-block-start: $may-green solid 1px;
         width: 35px;
+        margin-block-start: 0.5rem;
       }
     }
 
