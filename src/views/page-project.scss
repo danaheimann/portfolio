@@ -17,6 +17,15 @@ $section-width: 600px;
   .masthead-wrapper {
     background: linear-gradient(0deg, $project-green, $white);
 
+    .masthead {
+      h1 {
+        font-size: 4rem;
+        color: white;
+        @include media-breakpoint-up(lg) {
+          font-size: 5rem;
+        }
+      }
+    }
   }
 
   font-size: $font-sm;
@@ -183,6 +192,19 @@ $section-width: 600px;
     .quote-section-left-icon-group,
     .quote-section-right-icon-group {
       position: absolute;
+
+      svg:first-child {
+        margin-inline-end: 1rem;
+      }
+
+      svg {
+        display: inline-block;
+        width: 80px;
+        height: auto;
+        @include media-breakpoint-up(lg) {
+          width: 100px;
+        }
+      }
     }
 
     .quote-section-left-icon-group {

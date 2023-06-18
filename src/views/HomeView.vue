@@ -28,7 +28,7 @@ const projectCards = [
         description: 'Nov 2022-Feb 2023'
       }, {
         label: "Tools:",
-        description: 'Figma'
+        description: 'Figma',
       }, {
         label: "About:",
         description: 'Multi-page design portfolio'

@@ -8,7 +8,7 @@ import Separator from "../components/atoms/separator/Separator.vue";
 
 
 // data variables
-const webTitle = "DANA HEIMANN";
+const webTitle = "PEQUENA ITALIA PIZZA MOBILE APP";
 const webSubTitle = "UX/UI & VISUAL DESIGNER";
 const mastHeadImage = "./images/header-pizza-app-desktop.png";
 
@@ -40,11 +40,12 @@ const listItems = [
 <template>
   <main class="page-project">
     <div class="masthead-wrapper">
-      <MastHead :image="mastHeadImage"/>
+<!--      <MastHead :image="mastHeadImage"/>-->
+      <MastHead :title="webTitle" :image="mastHeadImage"/>
     </div>
     <section>
       <div class="container page-project-highlight">
-        <h2 class="text-center title-section text-black">PEQUENA ITALIA PIZZA MOBILE APP</h2>
+<!--        <h2 class="text-center title-section text-black">PEQUENA ITALIA PIZZA MOBILE APP</h2>-->
         <div class="wrapper-list">
           <dl class="project-card_body__list row">
             <ListItem v-for="listItem in listItems" :label="listItem.label"
