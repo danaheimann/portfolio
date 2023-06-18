@@ -85,24 +85,8 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
               <div class="dn-list-group col-12 col-md-6 col-lg-3">
                 <h4 class="dn-list-group__title">CODING</h4>
                 <ul class="dn-list-group__ul">
-                  <li>HTML<svg width="33" height="36" viewBox="0 0 33 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.84665 30.6998L4.84888 3.7373H28.8222L26.8244 30.6998L16.8355 33.9353L6.84665 30.6998Z"
-                          fill="#E44D26"/>
-                    <path d="M26.8244 5.89429H16.8355V32.3175L24.8267 29.6213L26.8244 5.89429Z" fill="#F16529"/>
-                    <path
-                        d="M10.3428 19.3756L9.3439 9.12988H24.8267L24.3272 12.3654H12.3406L12.84 16.1401H23.8278L22.8289 26.3859L16.8356 28.5429L10.8422 26.3859L10.3428 20.9934H13.3395L13.8389 23.6896L16.8356 24.7681L19.8322 23.6896L20.3317 19.3756H10.3428Z"
-                        fill="white"/>
-                  </svg></li>
-                  <li>CSS <svg width="33" height="35" viewBox="0 0 33 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g id="css_3">
-                      <path id="vector" d="M6.91221 30.6213L4.91443 3.65881H28.8878L26.89 30.6213L16.9011 33.8568L6.91221 30.6213Z"
-                            fill="#1172B8"/>
-                      <path id="vector_2" d="M26.89 5.8158H16.9011V32.239L24.8922 29.5428L26.89 5.8158Z" fill="#33AADD"/>
-                      <path id="vector_3"
-                            d="M20.3972 19.2971H10.4083L9.90887 15.5223L17.9 12.8261H9.90887L9.40942 9.59058H24.8922L24.3928 13.3653L17.9 16.0616H23.8933L22.8944 26.3073L16.9011 28.4643L10.9078 26.3073L10.4083 20.9148H13.405L13.9044 23.6111L16.9011 24.6896L19.8978 23.6111L20.3972 19.2971Z"
-                            fill="white"/>
-                    </g>
-                  </svg></li>
+                  <li>HTML</li>
+                  <li>CSS</li>
                   <li>CSS Grid & Flexbox</li>
                   <li>Basic JavaScript</li>
                   <li>Bootstrap</li>
@@ -142,14 +126,15 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
                   </svg></li>
                   <li>Adobe Suite</li>
                   <li>VS Code</li>
-                  <li>HTML5/CSS3 <svg width="33" height="36" viewBox="0 0 33 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <li>HTML5 <svg width="33" height="36" viewBox="0 0 33 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6.84665 30.6998L4.84888 3.7373H28.8222L26.8244 30.6998L16.8355 33.9353L6.84665 30.6998Z"
                           fill="#E44D26"/>
                     <path d="M26.8244 5.89429H16.8355V32.3175L24.8267 29.6213L26.8244 5.89429Z" fill="#F16529"/>
                     <path
                         d="M10.3428 19.3756L9.3439 9.12988H24.8267L24.3272 12.3654H12.3406L12.84 16.1401H23.8278L22.8289 26.3859L16.8356 28.5429L10.8422 26.3859L10.3428 20.9934H13.3395L13.8389 23.6896L16.8356 24.7681L19.8322 23.6896L20.3317 19.3756H10.3428Z"
                         fill="white"/>
-                  </svg>
+                  </svg></li>
+                  <li>CSS3
                     <svg width="33" height="35" viewBox="0 0 33 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g id="css_3">
                         <path id="vector" d="M6.91221 30.6213L4.91443 3.65881H28.8878L26.89 30.6213L16.9011 33.8568L6.91221 30.6213Z"
@@ -162,6 +147,7 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
                     </svg></li>
                   <li>Apple Keynote/Pages</li>
                   <li>Microsoft Powerpoint/Word</li>
+                  <li>Git</li>
                 </ul>
               </div>
             </div>

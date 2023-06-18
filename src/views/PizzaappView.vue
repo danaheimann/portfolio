@@ -287,16 +287,16 @@ const listItems = [
         </div>
       </div>
     </section>
-    <section class="">
+    <section class="wireframes-section">
       <div class="container">
         <h3 class="text-center title-section">WIREFRAMES:</h3>
         <div class="section-wrapper row">
           <div class="container">
-            <div class="row competitive-analysis-section-images">
-              <div class="col-6 col-lg-3 text-center">
+            <div class="row">
+              <div class="col-6 col-lg-3 text-center pb-5 pb-lg-0">
                 <Image alt="pizza app" url="./images/wireframeSignUp.jpg"/>
               </div>
-              <div class="col-6 col-lg-3 text-center">
+              <div class="col-6 col-lg-3 text-center pb-5 pb-lg-0">
                 <Image alt="pizza app" url="./images/wireframeMainMenu.jpg"/>
               </div>
               <div class="col-6 col-lg-3 text-center">
