@@ -143,6 +143,11 @@ $section-width: 600px;
     .competitive-analysis-section-description {
       padding-block-end: 4rem;
     }
+    .competitive-analysis-section-card {
+      .title-section {
+        padding-block-end: 3rem;
+      }
+    }
 
   }
 
@@ -181,6 +186,12 @@ $section-width: 600px;
       .row {
         @include media-breakpoint-up(lg) {
           padding-block-end: 4rem;
+        }
+        .row {
+          padding-block-end: 3rem;
+          @include media-breakpoint-up(lg) {
+            padding-block-end: 0;
+          }
         }
       }
     }

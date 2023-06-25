@@ -32,8 +32,14 @@ footer {
       }
     }
 
+    .footer-contact-phone {
+      color: black;
+      text-decoration: none;
+    }
+
     .footer-social {
       padding-block-end: 2rem;
+
       a,
       a:hover {
         color: $black;

@@ -9,4 +9,10 @@
 
 .list-item-content {
   text-align: right;
+  svg {
+    height: 30px;
+    width: auto;
+    display: inline-block;
+    padding-inline-start: 2rem;
+  }
 }

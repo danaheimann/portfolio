@@ -21,9 +21,12 @@ section {
   }
 }
 .intro-text-section {
-  font-size: $font-sm;
+  font-size: $font-md;
   @include media-breakpoint-up(md) {
-    font-size: $font-lg;
+    font-size: $font-xl;
+  }
+  svg {
+    margin-block-end: 2rem;
   }
 }
 

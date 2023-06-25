@@ -27,25 +27,19 @@ const listItems = [
 </script>
 
 
-
-
-
 <!--TODO: Poner el titulo encima de imagen-->
 <!--TODO: Colocar los quote bien-->
-
-
-
 
 
 <template>
   <main class="page-project">
     <div class="masthead-wrapper">
-<!--      <MastHead :image="mastHeadImage"/>-->
+      <!--      <MastHead :image="mastHeadImage"/>-->
       <MastHead :title="webTitle" :image="mastHeadImage"/>
     </div>
     <section>
       <div class="container page-project-highlight">
-<!--        <h2 class="text-center title-section text-black">PEQUENA ITALIA PIZZA MOBILE APP</h2>-->
+        <!--        <h2 class="text-center title-section text-black">PEQUENA ITALIA PIZZA MOBILE APP</h2>-->
         <div class="wrapper-list">
           <dl class="project-card_body__list row">
             <ListItem v-for="listItem in listItems" :label="listItem.label"
@@ -512,8 +506,9 @@ const listItems = [
             <source src="/videos/prototype-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <p>SEE THE FINAL PROTOTYPE FOR YOURSELF <a
-              href="https://www.figma.com/proto/b9Vm6IV3dA0P2OZpp02juD/Peque%C3%B1a-Italia-Pizza?page-id=371%3A1312&type=design&node-id=375-1322&viewport=437%2C297%2C0.11&scaling=scale-down&starting-point-node-id=375%3A1322" target="_blank">HERE</a>
+          <p>INTERACT WITH THE FINAL PROTOTYPE FOR YOURSELF <a
+              href="https://www.figma.com/proto/b9Vm6IV3dA0P2OZpp02juD/Peque%C3%B1a-Italia-Pizza?page-id=371%3A1312&type=design&node-id=375-1322&viewport=437%2C297%2C0.11&scaling=scale-down&starting-point-node-id=375%3A1322"
+              target="_blank">HERE</a>
           </p>
         </div>
       </div>
@@ -533,7 +528,7 @@ const listItems = [
 
     <div class="container dn-see-my-cv">
       <div class="text-center dn-btn-wrapper">
-        <a href="./UX_UI_dana_heimann.pdf" target=”_blank” class="dn-btn-outline-old-mauve">
+        <a href="https://docs.google.com/presentation/d/1bBWtUz4j7at_E6E9j9Nw9qQcNtn8wqiLlEAD-_ekFvE/edit?usp=sharing" target=”_blank” class="dn-btn-outline-old-mauve">
           PROCESS DECK
           <font-awesome-icon icon="fa-regular fa-circle-right"/>
         </a>
