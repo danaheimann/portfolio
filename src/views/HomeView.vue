@@ -14,7 +14,7 @@ const projectCards = [
     title: "Mobile-Ordering App for a Local Restaurant",
     description: 'Lorem Ipsum',
     link: '/pizzaapp',
-    linkTitle: 'CASE STUDY',
+    linkTitle: 'SEE THE CASE STUDY',
     image: {
       url: "./images/pizza-app.jpg",
       alt: "Project image alt",
@@ -39,7 +39,7 @@ const projectCards = [
   {
     title: "UX Designer Portfolio",
     description: 'Lorem Ipsum ',
-    link: '#link-to-figma',
+    link: 'https://www.figma.com/file/8SHjKMckFM0ysDtCfPVLkh/Portfolio-Website',
     linkTitle: 'SEE THE FIGMA',
     image: {
       url: "./images/portfolioThumbnail.jpg",
@@ -52,7 +52,7 @@ const projectCards = [
         description: 'UX Design'
       }, {
         label: "Timeline:",
-        description: 'Nov 2022-Feb 2023'
+        description: 'Nov 2022-June 2023'
       }, {
         label: "Tools:",
         description: 'porfolio',
@@ -63,28 +63,28 @@ const projectCards = [
     ]
   },
   {
-    title: "Logo design",
+    title: "Custom Logo Design",
     description: 'Lorem Ipsum',
     link: '/#ilustrator-download',
-    linkTitle: 'ILLUSTRATOR FILE',
+    linkTitle: 'SEE THE ILLUSTRATOR FILE',
     image: {
-      url: "./images/pizza-app.jpg",
+      url: "./images/logoThumbnail.jpg",
       alt: "Project image alt",
       position: "left"
     },
     listItems: [
       {
         label: "Role:",
-        description: 'UX Design & UX Research'
+        description: 'Graphic Design'
       }, {
         label: "Timeline:",
-        description: 'Jan-Sept 2022'
+        description: 'June 2023'
       }, {
         label: "Tools:",
         description: 'logo'
       }, {
         label: "About:",
-        description: 'Over 20 screens displaying a user flow from sign-in to order confirmation'
+        description: 'Custom Logo using Golden Ratio with multiple variants'
       }
     ]
   },
@@ -92,7 +92,7 @@ const projectCards = [
     title: "Responsive Website for a Small Business",
     description: 'Lorem Ipsum',
     link: 'https://danaheimann.github.io/lotusyoga/',
-    linkTitle: 'See the web site',
+    linkTitle: 'SEE THE SITE',
     image: {
       url: "./images/yoga-studio.png",
       alt: "Project image alt",

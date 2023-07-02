@@ -47,26 +47,26 @@
           line-height: 1;
           margin: 0;
           @include media-breakpoint-up(md) {
-            color: $old-mauve;
             font-size: 7rem;
           }
         }
 
         .lead {
           font-size: 1.8rem;
-          color: $secondary;
+          color: $primary;
           font-family: $font-family-aqala-display;
-          margin: 0.5rem;
-          @include media-breakpoint-up(md) {
-            color: $phthalo-green;
-          }
           @include media-breakpoint-up(md) {
             font-size: 2.5rem;
           }
         }
 
-        img {
-          max-width: 380px;
+        svg {
+          margin-inline: auto;
+          display: none;
+          @include media-breakpoint-up(md) {
+            display: block;
+
+          }
         }
       }
     }

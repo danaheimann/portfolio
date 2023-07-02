@@ -125,6 +125,18 @@ $section-width: 600px;
   }
 
   .competitive-analysis-section {
+    .competitive-analysis-section-process {
+      padding-block: 2rem;
+      display: flex;
+      align-content: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+      img {
+        width: fit-content;
+      }
+    }
+
     .competitive-analysis-section-title {
       h3 {
         padding-block-end: 0;
@@ -143,6 +155,7 @@ $section-width: 600px;
     .competitive-analysis-section-description {
       padding-block-end: 4rem;
     }
+
     .competitive-analysis-section-card {
       .title-section {
         padding-block-end: 3rem;
@@ -187,6 +200,7 @@ $section-width: 600px;
         @include media-breakpoint-up(lg) {
           padding-block-end: 4rem;
         }
+
         .row {
           padding-block-end: 3rem;
           @include media-breakpoint-up(lg) {

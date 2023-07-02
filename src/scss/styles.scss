@@ -49,12 +49,16 @@ section {
     background-color: $primary;
     font-family: $font-family-svarga-regular;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 18px;
     padding-block: 0.1rem;
     padding-inline: 1.5rem;
     border: 2px solid $old-mauve;
     border-radius: 25px;
     text-decoration: none;
+
+    @include media-breakpoint-up(md) {
+      font-size: 25px;
+    }
 
     svg {
       padding-inline-start: 0.5rem;

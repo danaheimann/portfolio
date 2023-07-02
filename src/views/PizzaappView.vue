@@ -101,6 +101,11 @@ const listItems = [
           </div>
         </div>
 
+        <div class="competitive-analysis-section-process">
+          <h3 class="text-center title-section text-black">UX PROCESS:</h3>
+          <Image alt="pizza app" url="./images/UX-Process.jpg"/>
+        </div>
+
         <div class="competitive-analysis-section-title">
           <h3 class="text-center title-section text-black">COMPETITIVE ANALYSIS:</h3>
           <h4 class="text-center">PROBLEMS & OPPORTUNITIES</h4>
