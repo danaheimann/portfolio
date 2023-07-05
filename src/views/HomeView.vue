@@ -39,7 +39,7 @@ const projectCards = [
   {
     title: "UX Designer Portfolio",
     description: 'Lorem Ipsum ',
-    link: 'https://www.figma.com/file/8SHjKMckFM0ysDtCfPVLkh/Portfolio-Website',
+    link: 'https://www.figma.com/file/8SHjKMckFM0ysDtCfPVLkh/Portfolio-Website?type=design&node-id=16-324&mode=design&t=I0Knsr1q158LfAjS-0',
     linkTitle: 'SEE THE FIGMA',
     image: {
       url: "./images/portfolioThumbnail.jpg",
