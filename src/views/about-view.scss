@@ -79,12 +79,9 @@
     .dn-btn-outline-old-mauve {
       //font-family: $font-family-aqala-display;
 
-      font-size: 2.3rem;
-      @include media-breakpoint-up(sm) {
-        font-size: 3rem;
-      }
+      font-size: 1.8rem;
       @include media-breakpoint-up(md) {
-        font-size: 4rem;
+        font-size: 2.5rem;
       }
     }
     hr {

@@ -27,7 +27,7 @@ defineProps({
       <Image class="footer-image" :alt="image.alt" :url="image.url"/>
     </div>
     <section class="container footer-wrapper d-flex flex-column align-items-center">
-      <h2 class="footer-title title-section">{{ title }}</h2>
+      <h3 class="footer-title title-section">{{ title }}</h3>
       <div class="footer-contact d-flex flex-column align-items-center">
         <p class="footer-contact-emmail">{{ email }}</p>
         <p class="footer-contact-phone">{{ phone }}</p>

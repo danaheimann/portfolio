@@ -14,12 +14,19 @@ footer {
   section {
     padding-block-end: 1rem;
 
+    .footer-title {
+      padding-block-end: 2rem;
+    }
+
     .footer-contact {
       font-family: $font-family-aqala-display;
-      font-size: $h5-font-size;
-      padding-block-end: 2rem;
+      font-size: 2rem;
+      padding-block-end: 1rem;
       @include media-breakpoint-up(md) {
-        font-size: $h3-font-size;
+        font-size: 2.75rem;
+      }
+      p {
+        margin-bottom: 0;
       }
     }
 
@@ -38,7 +45,7 @@ footer {
     }
 
     .footer-social {
-      padding-block-end: 2rem;
+      padding-block-end: 1rem;
 
       a,
       a:hover {
@@ -48,6 +55,14 @@ footer {
 
     .footer-logo {
       padding-block-end: 2rem;
+      svg {
+        height: 120px;
+        display: inline-block;
+      @include media-breakpoint-up(md) {
+        height: 200px;
+
+      }
+      }
     }
   }
 }
