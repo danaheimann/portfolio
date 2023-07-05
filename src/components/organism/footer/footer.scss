@@ -12,19 +12,26 @@ footer {
   //}
 
   section {
-    padding-block-end: 1rem;
+    padding-block-end: 0.5rem;
+    padding-block-start: 2.5rem;
 
     .footer-title {
       padding-block-end: 2rem;
+      font-size: 4rem;
+      @include media-breakpoint-up(md) {
+        font-size: 5rem;
+
+      }
     }
 
     .footer-contact {
       font-family: $font-family-aqala-display;
-      font-size: 2rem;
+      font-size: 1.8rem;
       padding-block-end: 1rem;
       @include media-breakpoint-up(md) {
-        font-size: 2.75rem;
+        font-size: 2.25rem;
       }
+
       p {
         margin-bottom: 0;
       }
@@ -55,13 +62,14 @@ footer {
 
     .footer-logo {
       padding-block-end: 2rem;
-      svg {
-        height: 120px;
-        display: inline-block;
-      @include media-breakpoint-up(md) {
-        height: 200px;
 
-      }
+      svg {
+        height: 100px;
+        display: inline-block;
+        @include media-breakpoint-up(md) {
+          height: 150px;
+
+        }
       }
     }
   }
