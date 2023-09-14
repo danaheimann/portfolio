@@ -65,7 +65,7 @@ const projectCards = [
   {
     title: "Custom Logo Design",
     description: 'Lorem Ipsum',
-    link: '/#ilustrator-download',
+    link: 'https://danaheimann.github.io/portfolio/images/logoProcess.jpg',
     linkTitle: 'SEE THE ILLUSTRATOR FILE',
     image: {
       url: "./images/logoThumbnail.jpg",
