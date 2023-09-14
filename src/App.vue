@@ -17,6 +17,6 @@ const footer = {
   <div class="page-wrapper" :id="router.currentRoute.value.name">
     <Nav-bar/>
     <router-view/>
-    <Footer :image="footer.image" title="GET IN TOUCH" email="DANA.C.HEIMANN@GMAIL.COM" phone="+34 658 68 86 37"/>
+    <Footer :image="footer.image" title="GET IN TOUCH" email="DANA.C.HEIMANN@GMAIL.COM" phone="(914) 806-6853"/>
   </div>
 </template>
