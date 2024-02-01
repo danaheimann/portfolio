@@ -15,7 +15,7 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 header-about__image">
-            <Image class="" alt="Dana Heimann UX disigner" url="./images/portraitOriginal.jpg"/>
+            <Image class="" alt="Dana Heimann UX designer" url="./images/portraitOriginal.jpg"/>
           </div>
           <div class="col-12 col-md-6 text-center header-about__text">
             <h1>{{ aboutTitle }}</h1>
@@ -46,7 +46,7 @@ const aboutSubTitle = "UX/UI & VISUAL DESIGNER";
     <section class="container intro-text-section">
       <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-6 text-center">
-          <p>Originally from New York, currently living in Naples, Florida, I’m an open-minded maker with a wide view of
+          <p>Originally from New York, currently living in Seville, Spain. I’m an open-minded maker with a wide view of
             the world. Ever since I was little, I took art classes in all kinds of mediums: drawing, painting, glass,
             ceramics, wood, metals, photography, and more. Everything about hands-on creation fascinated me then, and
             continues to intrigue me now.</p>

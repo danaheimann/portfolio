@@ -66,7 +66,7 @@ defineProps({
               </svg>
             </div>
       <div class="footer-copyright">
-        © DANA HEIMANN 2023
+        © DANA HEIMANN 2024
       </div>
     </section>
   </footer>
